@@ -1,7 +1,7 @@
 const gi = require('node-gtk');
 const Gtk = gi.require('Gtk', '3.0');
 const { exec } = require('child_process');
-
+const execSync = require('child_process').execSync;
 function createDiagnosticsPage(win) {
     let apkPath = '';
     let logProc = null;
@@ -9,7 +9,6 @@ function createDiagnosticsPage(win) {
     const page = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL });
     const vbox = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL });
     const fetchLogs = Gtk.Button.new();
-    const fs = require('fs');
 
     page.on('destroy', () => {
         if(logProc){
@@ -33,8 +32,26 @@ function createDiagnosticsPage(win) {
         });
     });
 
+    const scanLogs = Gtk.Button.new();
+    scanLogs.setLabel('Scan Logs for Malware');
+    scanLogs.on('clicked', () => {
+        try {
+            const stdout = execSync('/usr/local/bin/yara image_malware.yara logs.txt');
+            if (stdout.toString()) {
+                console.log(`Possible malware behavior detected:\n${stdout}`);
+                // Show a dialog or alert in the UI here
+            } else {
+                console.log('No malware behavior detected');
+                // Show a dialog or alert in the UI here
+            }
+        } catch (error) {
+            console.error(`Error: ${error}`);
+        }
+    });
+
     page.add(vbox);
-    vbox.add(fetchLogs)
+    vbox.add(fetchLogs);
+    vbox.add(scanLogs);
     return page;
 }
 module.exports = { createDiagnosticsPage };
