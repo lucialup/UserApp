@@ -7,15 +7,17 @@ function createHomePage(win) {
     let emulatorPath = '';
     let kernelImagePath = '';
 
-    const page = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL });
-    const vbox = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL });
+    const page = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL, spacing: 10, margin: 20 });
+    const vbox = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL, spacing: 10 });
+    const emulatorPathEntry = new Gtk.Entry();
+    const kernelPathEntry = new Gtk.Entry();
     const startEmulatorBtn = Gtk.Button.new();
     const stopEmulatorBtn = Gtk.Button.new();
     const browseEmulatorPathBtn = Gtk.Button.new();
     const browseKernelImagePathBtn = Gtk.Button.new();
 
     page.on('destroy', () => {
-        if(emulatorProc){
+        if (emulatorProc) {
             emulatorProc.kill();
         }
     });
@@ -32,6 +34,7 @@ function createHomePage(win) {
         let response = dialog.run();
         if (response == Gtk.ResponseType.OK) {
             emulatorPath = dialog.getFilename();
+            emulatorPathEntry.setText(emulatorPath);
         }
         dialog.destroy();
     });
@@ -45,10 +48,11 @@ function createHomePage(win) {
         dialog.addButton('Cancel', Gtk.ResponseType.CANCEL);
         dialog.addButton('Select', Gtk.ResponseType.OK);
         dialog.setFilter(new Gtk.FileFilter());
-        dialog.getFilter().addPattern('bzImage', 'zImage')
+        dialog.getFilter().addPattern('bzImage', 'zImage');
         let response = dialog.run();
         if (response === Gtk.ResponseType.OK) {
             kernelImagePath = dialog.getFilename();
+            kernelPathEntry.setText(kernelImagePath);
         }
         dialog.destroy();
     });
@@ -56,7 +60,10 @@ function createHomePage(win) {
     startEmulatorBtn.setLabel('Start emulator!');
     startEmulatorBtn.on('clicked', () => {
         const command = '/bin/bash';
-        const args = ['-c', `cd ${emulatorPath} && ./emulator -verbose @tutorial1 -kernel ${kernelImagePath} -show-kernel -qemu -enable-kvm -read-only`];
+        const args = [
+            '-c',
+            `cd ${emulatorPath} && ./emulator -verbose @tutorial1 -kernel ${kernelImagePath} -show-kernel -qemu -enable-kvm -read-only`
+        ];
 
         emulatorProc = spawn('gnome-terminal', ['--', command, ...args]);
     });
@@ -68,10 +75,14 @@ function createHomePage(win) {
     });
 
     page.add(vbox);
-    vbox.add(browseEmulatorPathBtn);
-    vbox.add(browseKernelImagePathBtn);
-    vbox.add(startEmulatorBtn);
-    vbox.add(stopEmulatorBtn);
+    vbox.packStart(browseEmulatorPathBtn, false, false, 0);
+    vbox.packStart(emulatorPathEntry, false, false, 0);
+    vbox.packStart(browseKernelImagePathBtn, false, false, 0);
+    vbox.packStart(kernelPathEntry, false, false, 0);
+    vbox.packStart(startEmulatorBtn, false, false, 0);
+    vbox.packStart(stopEmulatorBtn, false, false, 0);
+
     return page;
 }
+
 module.exports = { createHomePage };

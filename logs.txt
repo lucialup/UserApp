@@ -1,0 +1,994 @@
+[   26.026712] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.027672] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 1875 -- x3 times
+[   26.028657] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.029884] Syscall: openat, FD: 54, Filename: /data/user/0/com.google.android.gms/databases/dg.db, Flags: 557122, PID: 2928
+[   26.030936] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.031924] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dg.db-journal, Flags: 557056, PID: 2928
+[   26.033354] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.034571] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.035795] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.037046] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dg.db-journal, Flags: 557056, PID: 2928
+[   26.038479] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.039685] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.040847] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.041887] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dg.db-journal, Flags: 557056, PID: 2928
+[   26.043397] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.044899] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.046075] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.047338] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.049208] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.051195] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.052896] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.054621] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639 -- x2 times
+[   26.056420] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dg.db-journal, Flags: 557056, PID: 2928
+[   26.058222] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.060054] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.061771] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.063384] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dg.db-journal, Flags: 557056, PID: 2928
+[   26.065467] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.067097] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.068579] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.069679] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928 -- x3 times
+[   26.070797] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dg.db-journal, Flags: 557122, PID: 2928
+[   26.072010] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.073077] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x3 times
+[   26.074104] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.075043] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.076140] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x5 times
+[   26.077409] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.078389] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.079520] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x2 times
+[   26.080845] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.081731] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.082962] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.084650] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x2 times
+[   26.086570] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.088149] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.089933] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x2 times
+[   26.092077] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.093796] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.095568] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x2 times
+[   26.097499] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.099093] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.100951] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.102900] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.104695] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.106331] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.107762] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x2 times
+[   26.109157] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.111024] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.112810] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x5 times
+[   26.114589] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.115915] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.117260] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.118758] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.120393] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.121819] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.124057] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x2 times
+[   26.125973] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.127667] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.129607] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x2 times
+[   26.131585] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.133516] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.135204] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x2 times
+[   26.136439] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.137429] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.138578] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x2 times
+[   26.139903] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.140883] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.141981] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x2 times
+[   26.143206] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.144849] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.146659] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x2 times
+[   26.148674] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.150414] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.152201] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928 -- x2 times
+[   26.154204] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.155981] Syscall: openat, FD: 56, Filename: /data/user/0/com.google.android.gms/databases, Flags: 557056, PID: 2928
+[   26.157929] Syscall: openat, FD: 27, Filename: /selinux_version, Flags: 163840, PID: 3097
+[   26.159389] Syscall: close, FD: 27, Path: /selinux_version, PID: 3097
+[   26.160782] Syscall: openat, FD: 27, Filename: /seapp_contexts, Flags: 32768, PID: 3097
+[   26.162236] Syscall: read, FD: 27, Path: /seapp_contexts, Count: 4096, Buf: "isSystemServer=", PID: 3097
+[   26.164073] Syscall: read, FD: 27, Path: /seapp_contexts, Count: 4096, Buf: "isSystemServer=", PID: 3097
+[   26.165901] Syscall: lseek, FD: 27, Path: /seapp_contexts, PID: 3097
+[   26.167022] Syscall: read, FD: 27, Path: /seapp_contexts, Count: 4096, Buf: "isSystemServer=", PID: 3097
+[   26.168765] Syscall: read, FD: 27, Path: /seapp_contexts, Count: 4096, Buf: "isSystemServer=", PID: 3097
+[   26.170039] Syscall: close, FD: 27, Path: /seapp_contexts, PID: 3097
+[   26.170787] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.171989] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.173057] Syscall: close, FD: 56, Path: /data/data/com.google.android.gms/databases, PID: 2928
+[   26.173883] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.174833] Syscall: pwrite, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.175720] Syscall: pwrite, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928 -- x18 times
+[   26.176746] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.177723] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dg.db-journal, PID: 2928
+[   26.178717] Syscall: close, FD: 54, Path: /data/data/com.google.android.gms/databases/dg.db, PID: 2928
+[   26.179587] Syscall: openat, FD: 54, Filename: /data/user/0/com.google.android.gms/databases/dgp.db, Flags: 557122, PID: 2928
+[   26.181282] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.183139] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dgp.db-journal, Flags: 557056, PID: 2928
+[   26.185373] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.187309] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.189232] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.191102] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dgp.db-journal, Flags: 557056, PID: 2928
+[   26.193640] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.195725] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.197587] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.199397] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dgp.db-journal, Flags: 557056, PID: 2928
+[   26.201812] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.203728] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.205843] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.207130] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.208315] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dgp.db-journal, Flags: 557056, PID: 2928
+[   26.209822] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.211199] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.212408] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.213508] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dgp.db-journal, Flags: 557056, PID: 2928
+[   26.214905] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.216496] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.218550] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.220440] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.222259] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dgp.db-journal, Flags: 557122, PID: 2928
+[   26.224621] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.226871] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928 -- x6 times
+[   26.229190] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.230820] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.232739] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.234963] Syscall: openat, FD: 56, Filename: /data/user/0/com.google.android.gms/databases, Flags: 557056, PID: 2928
+[   26.237192] Syscall: close, FD: 56, Path: /data/data/com.google.android.gms/databases, PID: 2928
+[   26.238448] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.239894] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.241748] Syscall: pwrite, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.242957] Syscall: pwrite, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.244018] Syscall: pwrite, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.245196] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.246455] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639 -- x2 times
+[   26.247778] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.249116] Syscall: close, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.250219] Syscall: openat, FD: 54, Filename: /data/user/0/com.google.android.gms/databases/dgp.db, Flags: 557122, PID: 2928
+[   26.251578] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.252799] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dgp.db-journal, Flags: 557056, PID: 2928
+[   26.254445] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.256079] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.257788] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.259431] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dgp.db-journal, Flags: 557056, PID: 2928
+[   26.261817] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.263387] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.264992] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.266552] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.268611] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dgp.db-journal, Flags: 557056, PID: 2928
+[   26.270636] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.272588] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.274396] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.276048] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.277735] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dgp.db-journal, Flags: 557056, PID: 2928
+[   26.279373] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.280702] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.282121] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.283311] Syscall: openat, FD: 55, Filename: /data/user/0/com.google.android.gms/databases/dgp.db-journal, Flags: 557056, PID: 2928
+[   26.285106] Syscall: pread, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.286324] Syscall: close, FD: 55, Path: /data/data/com.google.android.gms/databases/dgp.db-journal, PID: 2928
+[   26.287560] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.288617] Syscall: pread, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.289665] Syscall: close, FD: 54, Path: /data/data/com.google.android.gms/databases/dgp.db, PID: 2928
+[   26.290791] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2452 -- x3 times
+[   26.292065] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.293447] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.294688] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.295874] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.297710] Syscall: pread, FD: 66, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 1888
+[   26.299445] Syscall: openat, FD: 113, Filename: /data/user/0/com.google.android.gms/databases, Flags: 557056, PID: 2393
+[   26.301315] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2404 -- x11 times
+[   26.303282] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.305206] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.307155] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.309151] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.311386] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.313420] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.315402] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.317478] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.319643] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.321867] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.323098] Syscall: pwrite, FD: 49, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2980
+[   26.324552] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.326222] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.327544] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639 -- x3 times
+[   26.329008] Syscall: pwrite, FD: 111, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.330340] Syscall: close, FD: 49, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2980
+[   26.331888] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2372 -- x2 times
+[   26.334639] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.335973] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639 -- x4 times
+[   26.337681] Syscall: pread, FD: 49, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2980
+[   26.339437] Syscall: close, FD: 49, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2980
+[   26.343625] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.345479] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.347363] Syscall: pread, FD: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2249
+[   26.349558] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2249
+[   26.351032] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2249 -- x8 times
+[   26.352608] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.354066] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639 -- x8 times
+[   26.355686] Syscall: pread, FD: 48, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db, PID: 2980
+[   26.357075] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.358280] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.359476] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.360707] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639 -- x8 times
+[   26.362208] Syscall: pread, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.363600] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2372
+[   26.364736] Syscall: close, FD: 111, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.366004] Syscall: openat, FD: 39, Filename: /data/user/0/com.google.android.gsf/databases, Flags: 557056, PID: 2639
+[   26.367443] Syscall: close, FD: 39, Path: /data/data/com.google.android.gsf/databases, PID: 2639
+[   26.368584] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.369750] Syscall: pwrite, FD: 33, Path: /data/data/com.google.android.gsf/databases/gservices.db, PID: 2639
+[   26.370844] Syscall: pwrite, FD: 33, Path: /data/data/com.google.android.gsf/databases/gservices.db, PID: 2639 -- x53 times
+[   26.372123] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.373233] Syscall: close, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.374806] Syscall: openat, FD: 38, Filename: /data/user/0/com.google.android.gsf/databases/gservices.db-journal, Flags: 557056, PID: 2639
+[   26.378036] Syscall: pread, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.380271] Syscall: close, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.382776] Syscall: pread, FD: 33, Path: /data/data/com.google.android.gsf/databases/gservices.db, PID: 2639
+[   26.384890] Syscall: openat, FD: 38, Filename: /data/user/0/com.google.android.gsf/databases/gservices.db-journal, Flags: 557122, PID: 2639
+[   26.386835] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.388351] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639 -- x9 times
+[   26.390226] Syscall: pread, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.391905] Syscall: openat, FD: 39, Filename: /data/user/0/com.google.android.gsf/databases, Flags: 557056, PID: 2639
+[   26.393241] Syscall: close, FD: 39, Path: /data/data/com.google.android.gsf/databases, PID: 2639
+[   26.394387] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.396264] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.398158] Syscall: read, FD: 103, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/rq/0000000000000001, Count: 4096, Buf: "°øç„&*$
+[   26.398158] com.g", PID: 2595
+[   26.401324] Syscall: write, FD: 42, Path: /data/data/com.google.android.googlequicksearchbox/app_shared_prefs/SearchSettings.bin, Count: 21690, Buf: "
+[   26.401324] 
+[   26.401324] register_to", PID: 2253
+[   26.404499] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/shared_prefs/com.google.android.gms.icing.mdh.service.MobileDataHubGcmTaskService_mdh-subscription-cleanup.xml, Flags: 32768, PID: 3122
+[   26.407971] Syscall: read, FD: 103, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/rq/0000000000000001, Count: 4096, Buf: "°øç„&*$
+[   26.407971] com.g", PID: 2595
+[   26.411077] Syscall: read, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/com.google.android.gms.icing.mdh.service.MobileDataHubGcmTaskService_mdh-subscription-cleanup.xml, Count: 16384, Buf: "<?xml version='", PID: 3122
+[   26.414118] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/com.google.android.gms.icing.mdh.service.MobileDataHubGcmTaskService_mdh-subscription-cleanup.xml, PID: 3122
+[   26.416267] Syscall: close, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.417534] Syscall: openat, FD: 39, Filename: /data/user/0/com.google.android.gsf/databases/gservices.db-journal, Flags: 557056, PID: 2639
+[   26.418962] Syscall: pread, FD: 39, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.420384] Syscall: close, FD: 39, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.421623] Syscall: pread, FD: 33, Path: /data/data/com.google.android.gsf/databases/gservices.db, PID: 2639
+[   26.422743] Syscall: openat, FD: 110, Filename: /data/user/0/com.google.android.gms/databases, Flags: 557056, PID: 2393
+[   26.423960] Syscall: close, FD: 42, Path: /data/data/com.google.android.googlequicksearchbox/app_shared_prefs/SearchSettings.bin, PID: 2253
+[   26.425365] Syscall: close, FD: 110, Path: /data/data/com.google.android.gms/databases, PID: 2393
+[   26.426368] Syscall: pwrite, FD: 107, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.427520] Syscall: openat, FD: 118, Filename: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.tag.corpusid-1, Flags: 32834, PID: 2595
+[   26.429071] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.tag.corpusid-1, PID: 2595
+[   26.430468] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   26.431529] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393 -- x3 times
+[   26.432716] Syscall: openat, FD: 118, Filename: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.tag.corpusid-12, Flags: 32834, PID: 2595
+[   26.434698] Syscall: pwrite, FD: 107, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.436006] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.tag.corpusid-12, PID: 2595
+[   26.437997] Syscall: openat, FD: 118, Filename: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.tag.corpusid-6, Flags: 32834, PID: 2595
+[   26.440610] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.tag.corpusid-6, PID: 2595
+[   26.442807] Syscall: close, FD: 107, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.444678] Syscall: openat, FD: 118, Filename: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.status, Flags: 32834, PID: 2595
+[   26.447398] Syscall: lseek, FD: 118, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.status, PID: 2595
+[   26.449513] Syscall: write, FD: 118, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.status, Count: 446, Buf: "þŒØ£", PID: 2595
+[   26.451734] Syscall: write, FD: 118, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.status, Count: 4, Buf: "àÇþ˜", PID: 2595
+[   26.454059] Syscall: pwrite, FD: 56, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2980 -- x3 times
+[   26.456742] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.status, PID: 2595
+[   26.459113] Syscall: pread, FD: 33, Path: /data/data/com.google.android.gsf/databases/gservices.db, PID: 2639
+[   26.461301] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2404
+[   26.462481] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/shared_prefs/com.google.android.gms.measurement.prefs.xml, Flags: 32768, PID: 3127
+[   26.464195] Syscall: read, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/com.google.android.gms.measurement.prefs.xml, Count: 16384, Buf: "<?xml version='", PID: 3127
+[   26.466205] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/com.google.android.gms.measurement.prefs.xml, PID: 3127
+[   26.467896] Syscall: openat, FD: 113, Filename: /data/user/0/com.google.android.gms/app_instantapps/metadataDatabase/000006.dbtmp, Flags: 557633, PID: 2249
+[   26.469517] Syscall: write, FD: 55, Path: pipe:[17618], Count: 1, Buf: "", PID: 2287
+[   26.470469] Syscall: write, FD: 113, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/000006.dbtmp, Count: 16, Buf: "MANIFEST-000006", PID: 2249
+[   26.472538] Syscall: close, FD: 113, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/000006.dbtmp, PID: 2249
+[   26.474680] Syscall: openat, FD: 115, Filename: /data/user/0/com.google.android.gms/app_instantapps/metadataDatabase, Flags: 622592, PID: 2249
+[   26.476916] Syscall: close, FD: 115, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase, PID: 2249
+[   26.479058] Syscall: write, FD: 102, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/LOG, Count: 60, Buf: "2023/05/30-17:2", PID: 2249
+[   26.481547] Syscall: pwrite, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699 -- x556 times
+[   26.483393] Syscall: write, FD: 55, Path: pipe:[17618], Count: 1, Buf: "", PID: 3121
+[   26.484792] Syscall: pwrite, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699 -- x3 times
+[   26.486789] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/shared_prefs/Checkin.xml, Flags: 33345, PID: 2450
+[   26.489319] Syscall: write, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/Checkin.xml, Count: 1578, Buf: "<?xml version='", PID: 2450
+[   26.492144] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/shared_prefs/com.google.android.gms.checkin.internal.network_backoff_shared_pref_name.xml, Flags: 33345, PID: 2445
+[   26.495693] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/Checkin.xml, PID: 2450
+[   26.497674] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/shared_prefs/Checkin.xml, Flags: 33345, PID: 2450
+[   26.499358] Syscall: write, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/com.google.android.gms.checkin.internal.network_backoff_shared_pref_name.xml, Count: 172, Buf: "<?xml version='", PID: 2445
+[   26.502055] Syscall: write, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/Checkin.xml, Count: 1578, Buf: "<?xml version='", PID: 2450
+[   26.503943] Syscall: pread, FD: 66, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2372
+[   26.505205] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/com.google.android.gms.checkin.internal.network_backoff_shared_pref_name.xml, PID: 2445
+[   26.507880] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/shared_prefs/com.google.android.gms.checkin.internal.package_rate_limit_backoff_shared_pref_name.xml, Flags: 33345, PID: 2445
+[   26.511484] Syscall: write, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/com.google.android.gms.checkin.internal.package_rate_limit_backoff_shared_pref_name.xml, Count: 142, Buf: "<?xml version='", PID: 2445
+[   26.515404] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/Checkin.xml, PID: 2450
+[   26.517423] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/shared_prefs/Checkin.xml, Flags: 33345, PID: 2450
+[   26.519745] Syscall: write, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/Checkin.xml, Count: 1578, Buf: "<?xml version='", PID: 2450
+[   26.522374] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/Checkin.xml, PID: 2450
+[   26.524332] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/com.google.android.gms.checkin.internal.package_rate_limit_backoff_shared_pref_name.xml, PID: 2445
+[   26.527346] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/shared_prefs/com.google.android.gms.checkin.internal.high_frequency_backoff_shared_pref_name.xml, Flags: 33345, PID: 2445
+[   26.529386] Syscall: write, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/com.google.android.gms.checkin.internal.high_frequency_backoff_shared_pref_name.xml, Count: 244, Buf: "<?xml version='", PID: 2445
+[   26.531876] Syscall: pwrite, FD: 115, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.533189] Syscall: openat, FD: 114, Filename: /data/user/0/com.google.android.gms/app_instantapps/domainFilterInfoDb/MANIFEST-000006, Flags: 557633, PID: 2249
+[   26.535039] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/com.google.android.gms.checkin.internal.high_frequency_backoff_shared_pref_name.xml, PID: 2445
+[   26.537155] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/files/checkin_id_token, Flags: 32768, PID: 2445
+[   26.538567] Syscall: read, FD: 118, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   26.540205] Syscall: read, FD: 118, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   26.542243] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/files/checkin_id_token, PID: 2445
+[   26.544212] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gsf/files/security_token, Flags: 32768, PID: 2445
+[   26.546439] Syscall: read, FD: 118, Path: /data/data/com.google.android.gsf/files/security_token, Count: 8, Buf: "ù^¿ù", PID: 2445
+[   26.549447] Syscall: close, FD: 118, Path: /data/data/com.google.android.gsf/files/security_token, PID: 2445
+[   26.551364] Syscall: write, FD: 114, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/MANIFEST-000006, Count: 35, Buf: "Vù¸ø", PID: 2249
+[   26.553677] Syscall: write, FD: 114, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/MANIFEST-000006, Count: 15, Buf: "ê¡—D", PID: 2249
+[   26.555747] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/app_instantapps/domainFilterInfoDb, Flags: 557056, PID: 2249
+[   26.557963] Syscall: close, FD: 115, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.559584] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb, PID: 2249
+[   26.561266] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/files/clearcut/0/EASY_UNLOCK_COUNTERS/-645770752/play_logger_context.pb, Flags: 33345, PID: 2372
+[   26.563217] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.564478] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/app_instantapps/domainFilterInfoDb/000006.dbtmp, Flags: 557633, PID: 2249
+[   26.566243] Syscall: write, FD: 120, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/000006.dbtmp, Count: 16, Buf: "MANIFEST-000006", PID: 2249
+[   26.567845] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.568810] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.569796] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, Flags: 33345, PID: 2450
+[   26.571264] Syscall: write, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, Count: 65, Buf: "<?xml version='", PID: 2450
+[   26.573347] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.574826] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.576223] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.577697] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.579156] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/000006.dbtmp, PID: 2249
+[   26.580609] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.581767] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.583036] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.584167] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.585400] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.586680] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.588151] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.589439] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.590560] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.591794] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.593254] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.595130] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.597761] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.599413] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.601262] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.602851] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.604565] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.606234] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.607945] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, PID: 2450
+[   26.610064] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, Flags: 33345, PID: 2450
+[   26.612477] Syscall: write, FD: 113, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/LOG, Count: 60, Buf: "2023/05/30-17:2", PID: 2249
+[   26.614902] Syscall: write, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, Count: 104, Buf: "<?xml version='", PID: 2450
+[   26.617098] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, PID: 2450
+[   26.618826] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.620230] Syscall: pread, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.621604] Syscall: pwrite, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.622966] Syscall: read, FD: 63, Path: /data/misc/keychain/pubkey_blacklist.txt, Count: 8192, Buf: "410f36363258f30", PID: 3134
+[   26.624515] Syscall: read, FD: 63, Path: /data/misc/keychain/pubkey_blacklist.txt, Count: 8192, Buf: "410f36363258f30", PID: 3134
+[   26.625990] Syscall: close, FD: 63, Path: /data/misc/keychain/pubkey_blacklist.txt, PID: 3134
+[   26.627245] Syscall: read, FD: 63, Path: /data/misc/keychain/serial_blacklist.txt, Count: 8192, Buf: "", PID: 3134
+[   26.628746] Syscall: close, FD: 63, Path: /data/misc/keychain/serial_blacklist.txt, PID: 3134
+[   26.629901] Syscall: write, FD: 55, Path: pipe:[17618], Count: 1, Buf: "", PID: 3134
+[   26.631307] Syscall: read, FD: 54, Path: pipe:[17618], Count: 1, Buf: "", PID: 3121
+[   26.632408] Syscall: write, FD: 55, Path: pipe:[17618], Count: 1, Buf: "", PID: 3121
+[   26.633513] Syscall: read, FD: 54, Path: pipe:[17618], Count: 1, Buf: "", PID: 3121
+[   26.634629] Syscall: pread, FD: 66, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2451 -- x6 times
+[   26.636270] Syscall: write, FD: 55, Path: pipe:[17618], Count: 1, Buf: "", PID: 2287
+[   26.637497] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3052 -- x8 times
+[   26.639078] Syscall: read, FD: 54, Path: pipe:[17618], Count: 1, Buf: "", PID: 3121
+[   26.640282] Syscall: write, FD: 47, Path: /data/data/com.google.android.googlequicksearchbox/app_shared_prefs/SearchSettings.bin, Count: 21690, Buf: "
+[   26.640282] 
+[   26.640282] register_to", PID: 2253
+[   26.642772] Syscall: pread, FD: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3053
+[   26.644256] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3053
+[   26.645873] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3053
+[   26.647971] Syscall: openat, FD: 123, Filename: /data/user/0/com.google.android.gms/app_instantapps/instantAppDataDb/MANIFEST-000006, Flags: 557633, PID: 2249
+[   26.651014] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3053
+[   26.653188] Syscall: pread, FD: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3053
+[   26.655425] Syscall: pread, FD: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3053 -- x7 times
+[   26.657929] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3053
+[   26.660466] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3053
+[   26.662971] Syscall: pread, FD: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3053
+[   26.665456] Syscall: write, FD: 123, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/MANIFEST-000006, Count: 35, Buf: "Vù¸ø", PID: 2249
+[   26.668517] Syscall: write, FD: 123, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/MANIFEST-000006, Count: 15, Buf: "ê¡—D", PID: 2249
+[   26.670937] Syscall: openat, FD: 121, Filename: /data/user/0/com.google.android.gms/app_instantapps/instantAppDataDb, Flags: 557056, PID: 2249
+[   26.672614] Syscall: close, FD: 121, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb, PID: 2249
+[   26.674189] Syscall: openat, FD: 124, Filename: /data/user/0/com.google.android.gms/app_instantapps/instantAppDataDb/000006.dbtmp, Flags: 557633, PID: 2249
+[   26.676065] Syscall: write, FD: 124, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/000006.dbtmp, Count: 16, Buf: "MANIFEST-000006", PID: 2249
+[   26.678092] Syscall: openat, FD: 126, Filename: /data/user/0/com.google.android.gms/databases, Flags: 557056, PID: 2393
+[   26.679725] Syscall: openat, FD: 120, Filename: /data/user_de/0/com.google.android.gms/app_chimera/current_features.fb, Flags: 32768, PID: 1891
+[   26.681586] Syscall: close, FD: 126, Path: /data/data/com.google.android.gms/databases, PID: 2393
+[   26.682786] Syscall: close, FD: 124, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/000006.dbtmp, PID: 2249
+[   26.684377] Syscall: pwrite, FD: 122, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.685771] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   26.687009] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393 -- x3 times
+[   26.688428] Syscall: openat, FD: 127, Filename: /data/user/0/com.google.android.gms/app_instantapps/instantAppDataDb, Flags: 622592, PID: 2249
+[   26.690173] Syscall: close, FD: 127, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb, PID: 2249
+[   26.691694] Syscall: write, FD: 112, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/LOG, Count: 60, Buf: "2023/05/30-17:2", PID: 2249
+[   26.693665] Syscall: write, FD: 112, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/LOG, Count: 60, Buf: "2023/05/30-17:2", PID: 2249
+[   26.696294] Syscall: close, FD: 120, Path: /data/user_de/0/com.google.android.gms/app_chimera/current_features.fb, PID: 1891
+[   26.698779] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/files/checkin_id_token, Flags: 32768, PID: 2445
+[   26.701378] Syscall: read, FD: 118, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   26.704202] Syscall: read, FD: 118, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   26.707069] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/files/checkin_id_token, PID: 2445
+[   26.709385] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.711891] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/shared_prefs/gms_icing_mdd_gcm_task_periods.xml, Flags: 32768, PID: 3116
+[   26.714900] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.717354] Syscall: read, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/gms_icing_mdd_gcm_task_periods.xml, Count: 16384, Buf: "<?xml version='", PID: 3116
+[   26.720976] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/gms_icing_mdd_gcm_task_periods.xml, PID: 3116
+[   26.722978] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/shared_prefs/gms_icing_mdd_phenotype_config.xml, Flags: 32768, PID: 3117
+[   26.725086] Syscall: read, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/gms_icing_mdd_phenotype_config.xml, Count: 16384, Buf: "<?xml version='", PID: 3117
+[   26.727262] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/gms_icing_mdd_phenotype_config.xml, PID: 3117
+[   26.729068] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/shared_prefs/gms_icing_mdd_phenotype_registrar.xml, Flags: 32768, PID: 3118
+[   26.731101] Syscall: read, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/gms_icing_mdd_phenotype_registrar.xml, Count: 16384, Buf: "<?xml version='", PID: 3118
+[   26.733662] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/gms_icing_mdd_phenotype_registrar.xml, PID: 3118
+[   26.735487] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639 -- x24 times
+[   26.737215] Syscall: close, FD: 39, Path: /data/user_de/0/com.google.android.gms/app_extracted_libs, PID: 2984
+[   26.738618] Syscall: pwrite, FD: 38, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639 -- x10 times
+[   26.740440] Syscall: close, FD: 39, Path: /data/user_de/0/com.google.android.gms/app_extracted_libs, PID: 2984
+[   26.741945] Syscall: pread, FD: 40, Path: /data/user_de/0/com.google.android.gms/app_extracted_libs/x86_64/libconscrypt_gmscore_jni.so, PID: 2984
+[   26.744500] Syscall: close, FD: 40, Path: /data/user_de/0/com.google.android.gms/app_extracted_libs/x86_64/libconscrypt_gmscore_jni.so, PID: 2984
+[   26.746066] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2372
+[   26.747317] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2372
+[   26.749125] Syscall: openat, FD: 107, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557056, PID: 2393
+[   26.751334] Syscall: pread, FD: 107, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.753215] Syscall: pwrite, FD: 33, Path: /data/data/com.google.android.gsf/databases/gservices.db, PID: 2639 -- x2 times
+[   26.755415] Syscall: close, FD: 107, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.761010] Syscall: pread, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   26.763395] Syscall: openat, FD: 107, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557122, PID: 2393
+[   26.767107] Syscall: pwrite, FD: 107, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.769219] Syscall: pwrite, FD: 107, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393 -- x12 times
+[   26.771625] Syscall: pread, FD: 107, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.773647] Syscall: openat, FD: 40, Filename: /data/user/0/com.google.android.gsf/databases/gservices.db-journal, Flags: 557056, PID: 2639
+[   26.776063] Syscall: pread, FD: 40, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.777696] Syscall: close, FD: 40, Path: /data/data/com.google.android.gsf/databases/gservices.db-journal, PID: 2639
+[   26.779093] Syscall: pread, FD: 33, Path: /data/data/com.google.android.gsf/databases/gservices.db, PID: 2639
+[   26.780228] Syscall: openat, FD: 111, Filename: /data/user/0/com.google.android.gms/shared_prefs/instantapps.Routing.xml, Flags: 32768, PID: 3128
+[   26.782301] Syscall: read, FD: 111, Path: /data/data/com.google.android.gms/shared_prefs/instantapps.Routing.xml, Count: 16384, Buf: "<?xml version='", PID: 3128
+[   26.784557] Syscall: close, FD: 111, Path: /data/data/com.google.android.gms/shared_prefs/instantapps.Routing.xml, PID: 3128
+[   26.786419] Syscall: write, FD: 55, Path: pipe:[17618], Count: 1, Buf: "", PID: 2215
+[   26.787750] Syscall: read, FD: 54, Path: pipe:[17618], Count: 1, Buf: "", PID: 3121
+[   26.788976] Syscall: pread, FD: 46, Path: /data/data/com.google.android.googlequicksearchbox/cache/cronet-async/version, PID: 3121
+[   26.790711] Syscall: close, FD: 46, Path: /data/data/com.google.android.googlequicksearchbox/cache/cronet-async/version, PID: 3121
+[   26.792450] Syscall: read, FD: 46, Path: /data/data/com.google.android.googlequicksearchbox/cache/cronet-async/prefs/local_prefs.json, Count: 65536, Buf: "{"SDCH":{"dicti", PID: 3121
+[   26.795388] Syscall: read, FD: 46, Path: /data/data/com.google.android.googlequicksearchbox/cache/cronet-async/prefs/local_prefs.json, Count: 65336, Buf: "", PID: 3121
+[   26.797675] Syscall: read, FD: 46, Path: /data/data/com.google.android.googlequicksearchbox/cache/cronet-async/prefs/local_prefs.json, Count: 65536, Buf: "{"SDCH":{"dicti", PID: 3121
+[   26.800177] Syscall: close, FD: 46, Path: /data/data/com.google.android.googlequicksearchbox/cache/cronet-async/prefs/local_prefs.json, PID: 3121
+[   26.803150] Syscall: openat, FD: 102, Filename: /data/user/0/com.google.android.gms/app_instantapps/metadataDatabase/LOG, Flags: 558145, PID: 2249
+[   26.805934] Syscall: openat, FD: 107, Filename: /data/user/0/com.google.android.gms/app_instantapps/metadataDatabase/LOCK, Flags: 557122, PID: 2249
+[   26.808807] Syscall: write, FD: 38, Path: /data/data/com.android.chrome/app_webview/variations_seed_new, Count: 103, Buf: "
+[   26.808807] `MEYCIQDefIcIZ", PID: 3086
+[   26.812242] Syscall: write, FD: 38, Path: /data/data/com.android.chrome/app_webview/variations_seed_new, Count: 78, Buf: "Tue, 30 May 20", PID: 3086
+[   26.815237] Syscall: close, FD: 38, Path: /data/data/com.android.chrome/app_webview/variations_seed_new, PID: 3086
+[   26.817660] Syscall: write, FD: 55, Path: pipe:[17618], Count: 1, Buf: "", PID: 2287
+[   26.819327] Syscall: read, FD: 54, Path: pipe:[17618], Count: 1, Buf: "", PID: 3121
+[   26.821133] Syscall: pread, FD: 47, Path: /data/data/com.google.android.googlequicksearchbox/cache/cronet-async/disk_cache/index, PID: 3137
+[   26.823677] Syscall: close, FD: 47, Path: /data/data/com.google.android.googlequicksearchbox/cache/cronet-async/disk_cache/index, PID: 3137
+[   26.826357] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2451
+[   26.828291] Syscall: close, FD: 47, Path: /data/data/com.google.android.googlequicksearchbox/cache/cronet-async/disk_cache/index-dir/the-real-index, PID: 3143
+[   26.831286] Syscall: read, FD: 54, Path: pipe:[17618], Count: 1, Buf: "", PID: 3121
+[   26.832670] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3053 -- x36 times
+[   26.834889] Syscall: openat, FD: 115, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557056, PID: 2393
+[   26.837421] Syscall: pread, FD: 115, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.839531] Syscall: close, FD: 115, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.841717] Syscall: pread, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   26.843721] Syscall: openat, FD: 115, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557122, PID: 2393
+[   26.846271] Syscall: pread, FD: 66, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2372
+[   26.848523] Syscall: pread, FD: 66, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2372 -- x2 times
+[   26.850928] Syscall: pread, FD: 68, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2372
+[   26.853034] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2452
+[   26.854606] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2452 -- x10 times
+[   26.856698] Syscall: pread, FD: 66, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2372
+[   26.858893] Syscall: pread, FD: 68, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2372
+[   26.861079] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/shared_prefs/gms.people.xml, Flags: 32768, PID: 3161
+[   26.863704] Syscall: read, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/gms.people.xml, Count: 16384, Buf: "<?xml version='", PID: 3161
+[   26.866670] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/gms.people.xml, PID: 3161
+[   26.868881] Syscall: openat, FD: 13, Filename: /data/media/0, Flags: 622592, PID: 1766
+[   26.870667] Syscall: close, FD: 13, Path: /data/media/0, PID: 1766
+[   26.872048] Syscall: openat, FD: 33, Filename: /data/user/0/com.google.android.youtube/shared_prefs/youtube.xml, Flags: 32768, PID: 3138
+[   26.874613] Syscall: read, FD: 33, Path: /data/data/com.google.android.youtube/shared_prefs/youtube.xml, Count: 16384, Buf: "<?xml version='", PID: 3138
+[   26.877687] Syscall: read, FD: 33, Path: /data/data/com.google.android.youtube/shared_prefs/youtube.xml, Count: 16384, Buf: "NiUyQzI0MjU1NTQ", PID: 3138
+[   26.881213] Syscall: close, FD: 33, Path: /data/data/com.google.android.youtube/shared_prefs/youtube.xml, PID: 3138
+[   26.883635] Syscall: openat, FD: 111, Filename: /data/user/0/com.google.android.gms/app_instantapps/metadataDatabase/CURRENT, Flags: 557056, PID: 2249
+[   26.886578] Syscall: read, FD: 111, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/CURRENT, Count: 8192, Buf: "MANIFEST-000004", PID: 2249
+[   26.889761] Syscall: read, FD: 111, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/CURRENT, Count: 8192, Buf: "MANIFEST-000004", PID: 2249
+[   26.893212] Syscall: close, FD: 111, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/CURRENT, PID: 2249
+[   26.895985] Syscall: openat, FD: 110, Filename: /data/user/0/com.google.android.gms/app_instantapps/metadataDatabase/MANIFEST-000004, Flags: 557056, PID: 2249
+[   26.899287] Syscall: read, FD: 110, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/MANIFEST-000004, Count: 32768, Buf: "Vù¸ø", PID: 2249
+[   26.903388] Syscall: close, FD: 110, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/MANIFEST-000004, PID: 2249
+[   26.906428] Syscall: openat, FD: 110, Filename: /data/user/0/com.google.android.gms/app_instantapps/metadataDatabase, Flags: 622592, PID: 2249
+[   26.909657] Syscall: close, FD: 110, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase, PID: 2249
+[   26.912276] Syscall: openat, FD: 110, Filename: /data/user/0/com.google.android.gms/app_instantapps/metadataDatabase/000005.log, Flags: 557056, PID: 2249
+[   26.915630] Syscall: write, FD: 102, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/LOG, Count: 61, Buf: "2023/05/30-17:2", PID: 2249
+[   26.918911] Syscall: read, FD: 110, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/000005.log, Count: 32768, Buf: "Vù¸ø", PID: 2249
+[   26.922520] Syscall: close, FD: 110, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/000005.log, PID: 2249
+[   26.925433] Syscall: openat, FD: 110, Filename: /data/user/0/com.google.android.gms/app_instantapps/metadataDatabase/000007.log, Flags: 557633, PID: 2249
+[   26.928532] Syscall: openat, FD: 111, Filename: /data/user/0/com.google.android.gms/app_instantapps/metadataDatabase/MANIFEST-000006, Flags: 557633, PID: 2249
+[   26.932006] Syscall: write, FD: 111, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/MANIFEST-000006, Count: 35, Buf: "Vù¸ø", PID: 2249
+[   26.935252] Syscall: write, FD: 111, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/MANIFEST-000006, Count: 15, Buf: "ê¡—D", PID: 2249
+[   26.938416] Syscall: openat, FD: 113, Filename: /data/user/0/com.google.android.gms/app_instantapps/metadataDatabase, Flags: 557056, PID: 2249
+[   26.941439] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2451
+[   26.943902] Syscall: close, FD: 113, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase, PID: 2249
+[   26.946517] Syscall: read, FD: 54, Path: pipe:[17618], Count: 1, Buf: "", PID: 3121
+[   26.948277] Syscall: write, FD: 55, Path: pipe:[17618], Count: 1, Buf: "", PID: 3133
+[   26.950001] Syscall: read, FD: 54, Path: pipe:[17618], Count: 1, Buf: "", PID: 3121
+[   26.951778] Syscall: write, FD: 102, Path: /data/data/com.google.android.gms/app_instantapps/metadataDatabase/LOG, Count: 60, Buf: "2023/05/30-17:2", PID: 2249
+[   26.954734] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/files/checkin_id_token, Flags: 32768, PID: 2445
+[   26.957363] Syscall: read, FD: 118, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   26.960586] Syscall: read, FD: 118, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   26.963655] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/files/checkin_id_token, PID: 2445
+[   26.965886] Syscall: pread, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   26.968233] Syscall: pwrite, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   26.970584] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2452
+[   26.972865] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/shared_prefs/Checkin.xml, Flags: 33345, PID: 2450
+[   26.975551] Syscall: write, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/Checkin.xml, Count: 1578, Buf: "<?xml version='", PID: 2450
+[   26.978577] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2452
+[   26.980933] Syscall: pread, FD: 66, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2372
+[   26.983273] Syscall: pread, FD: 66, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2372
+[   26.985673] Syscall: pread, FD: 68, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2372
+[   26.987220] Syscall: pread, FD: 68, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2372
+[   26.988669] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3053
+[   26.990135] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2452
+[   26.991345] Syscall: pwrite, FD: 115, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.992617] Syscall: openat, FD: 113, Filename: /data/user/0/com.google.android.gms/app_instantapps/domainFilterInfoDb/LOG, Flags: 558145, PID: 2249
+[   26.994540] Syscall: pwrite, FD: 115, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.996009] Syscall: pwrite, FD: 115, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393 -- x11 times
+[   26.997661] Syscall: pread, FD: 115, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   26.999134] Syscall: openat, FD: 116, Filename: /data/user/0/com.google.android.gms/app_instantapps/domainFilterInfoDb/LOCK, Flags: 557122, PID: 2249
+[   27.001014] Syscall: openat, FD: 117, Filename: /data/user/0/com.google.android.gms/app_instantapps/domainFilterInfoDb/CURRENT, Flags: 557056, PID: 2249
+[   27.002754] Syscall: pwrite, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   27.003996] Syscall: pwrite, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699 -- x85 times
+[   27.005399] Syscall: read, FD: 117, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/CURRENT, Count: 8192, Buf: "MANIFEST-000004", PID: 2249
+[   27.007173] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/Checkin.xml, PID: 2450
+[   27.008416] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/databases, Flags: 557056, PID: 2393
+[   27.009696] Syscall: read, FD: 117, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/CURRENT, Count: 8192, Buf: "MANIFEST-000004", PID: 2249
+[   27.011450] Syscall: close, FD: 117, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/CURRENT, PID: 2249
+[   27.012787] Syscall: openat, FD: 117, Filename: /data/user/0/com.google.android.gms/app_instantapps/domainFilterInfoDb/MANIFEST-000004, Flags: 557056, PID: 2249
+[   27.014300] Syscall: pwrite, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   27.015550] Syscall: pwrite, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699 -- 4 times
+[   27.016906] Syscall: pwrite, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   27.018608] Syscall: pwrite, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   27.020390] Syscall: read, FD: 117, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/MANIFEST-000004, Count: 32768, Buf: "Vù¸ø", PID: 2249
+[   27.022287] Syscall: close, FD: 117, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/MANIFEST-000004, PID: 2249
+[   27.023768] Syscall: openat, FD: 117, Filename: /data/user/0/com.google.android.gms/app_instantapps/domainFilterInfoDb, Flags: 622592, PID: 2249
+[   27.025331] Syscall: close, FD: 117, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb, PID: 2249
+[   27.026671] Syscall: openat, FD: 117, Filename: /data/user/0/com.google.android.gms/app_instantapps/domainFilterInfoDb/000005.log, Flags: 557056, PID: 2249
+[   27.028391] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/databases, PID: 2393
+[   27.029631] Syscall: pwrite, FD: 115, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.031296] Syscall: pwrite, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   27.032816] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   27.034015] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393 -- x3 times
+[   27.035407] Syscall: pwrite, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   27.036734] Syscall: write, FD: 113, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/LOG, Count: 61, Buf: "2023/05/30-17:2", PID: 2249
+[   27.038487] Syscall: read, FD: 117, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/000005.log, Count: 32768, Buf: "Vù¸ø", PID: 2249
+[   27.039997] Syscall: close, FD: 117, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/000005.log, PID: 2249
+[   27.041487] Syscall: pwrite, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699
+[   27.042729] Syscall: pwrite, FD: 45, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2699 -- x4 times
+[   27.044085] Syscall: openat, FD: 117, Filename: /data/user/0/com.google.android.gms/app_instantapps/domainFilterInfoDb/000007.log, Flags: 557633, PID: 2249
+[   27.046076] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/cache/nearby_bluetooth_metadata, Flags: 622592, PID: 2484
+[   27.048592] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/cache/nearby_bluetooth_metadata, PID: 2484
+[   27.050291] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, Flags: 32768, PID: 3156
+[   27.052271] Syscall: openat, FD: 33, Filename: /data/user/0/com.google.android.youtube/shared_prefs/youtube.xml, Flags: 33345, PID: 3158
+[   27.053953] Syscall: read, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, Count: 16384, Buf: "<?xml version='", PID: 3156
+[   27.056317] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, PID: 3156
+[   27.057975] Syscall: write, FD: 33, Path: /data/data/com.google.android.youtube/shared_prefs/youtube.xml, Count: 651, Buf: "<?xml version='", PID: 3158
+[   27.059616] Syscall: write, FD: 33, Path: /data/data/com.google.android.youtube/shared_prefs/youtube.xml, Count: 7753, Buf: "CrIEQ0lLWm42SUd", PID: 3158
+[   27.061327] Syscall: write, FD: 33, Path: /data/data/com.google.android.youtube/shared_prefs/youtube.xml, Count: 8192, Buf: "8vL19gMEWABoAKL", PID: 3158
+[   27.062988] Syscall: write, FD: 33, Path: /data/data/com.google.android.youtube/shared_prefs/youtube.xml, Count: 2605, Buf: "NDU1MjEzOSUyQzI", PID: 3158
+[   27.064765] Syscall: close, FD: 33, Path: /data/data/com.google.android.youtube/shared_prefs/youtube.xml, PID: 3158
+[   27.065857] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/app_instantapps/domainFilterInfoDb, Flags: 622592, PID: 2249
+[   27.067484] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb, PID: 2249
+[   27.068825] Syscall: write, FD: 113, Path: /data/data/com.google.android.gms/app_instantapps/domainFilterInfoDb/LOG, Count: 60, Buf: "2023/05/30-17:2", PID: 2249
+[   27.070514] Syscall: openat, FD: 33, Filename: /data/user/0/com.google.android.youtube/shared_prefs/youtube.xml, Flags: 33345, PID: 3158
+[   27.072220] Syscall: write, FD: 33, Path: /data/data/com.google.android.youtube/shared_prefs/youtube.xml, Count: 651, Buf: "<?xml version='", PID: 3158
+[   27.074134] Syscall: write, FD: 33, Path: /data/data/com.google.android.youtube/shared_prefs/youtube.xml, Count: 7753, Buf: "CrIEQ0lLWm42SUd", PID: 3158
+[   27.076090] Syscall: write, FD: 33, Path: /data/data/com.google.android.youtube/shared_prefs/youtube.xml, Count: 8192, Buf: "8vL19gMEWABoAKL", PID: 3158
+[   27.078030] Syscall: write, FD: 33, Path: /data/data/com.google.android.youtube/shared_prefs/youtube.xml, Count: 2722, Buf: "NDU1MjEzOSUyQzI", PID: 3158
+[   27.079634] Syscall: close, FD: 33, Path: /data/data/com.google.android.youtube/shared_prefs/youtube.xml, PID: 3158
+[   27.080865] Syscall: write, FD: 118, Path: /data/data/com.google.android.gms/files/clearcut/0/EASY_UNLOCK_COUNTERS/-645770752/play_logger_context.pb, Count: 564, Buf: "com.google.", PID: 2372
+[   27.082570] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/files/clearcut/0/EASY_UNLOCK_COUNTERS/-645770752/play_logger_context.pb, PID: 2372
+[   27.084432] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/files/clearcut/0/EASY_UNLOCK_COUNTERS/-645770752/1685456510820.NONE, Flags: 33857, PID: 2372
+[   27.086654] Syscall: write, FD: 118, Path: /data/data/com.google.android.gms/files/clearcut/0/EASY_UNLOCK_COUNTERS/-645770752/1685456510820.NONE, Count: 20, Buf: "<Š¬¥è†12Ÿ»", PID: 2372
+[   27.089035] Syscall: write, FD: 118, Path: /data/data/com.google.android.gms/files/clearcut/0/EASY_UNLOCK_COUNTERS/-645770752/1685456510820.NONE, Count: 41, Buf: "‡nì„xà¨", PID: 2372
+[   27.091598] Syscall: openat, FD: 112, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557056, PID: 2393
+[   27.093028] Syscall: pread, FD: 112, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.094006] Syscall: close, FD: 112, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.094991] Syscall: pread, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   27.095902] Syscall: openat, FD: 112, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557122, PID: 2393
+[   27.097316] Syscall: pwrite, FD: 112, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.098751] Syscall: pwrite, FD: 112, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393 -- x12 times
+[   27.100473] Syscall: pread, FD: 112, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.101515] Syscall: openat, FD: 124, Filename: /data/user/0/com.google.android.gms/databases, Flags: 557056, PID: 2393
+[   27.102692] Syscall: close, FD: 124, Path: /data/data/com.google.android.gms/databases, PID: 2393
+[   27.104028] Syscall: pwrite, FD: 112, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.105421] Syscall: pread, FD: 66, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2451
+[   27.106810] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   27.108057] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393 -- x3 times
+[   27.109690] Syscall: pwrite, FD: 112, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.111449] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3052
+[   27.113273] Syscall: close, FD: 112, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.114803] Syscall: openat, FD: 112, Filename: /data/user/0/com.google.android.gms/app_instantapps/instantAppDataDb/LOG, Flags: 558145, PID: 2249
+[   27.116969] Syscall: openat, FD: 115, Filename: /data/user/0/com.google.android.gms/app_instantapps/instantAppDataDb/LOCK, Flags: 557122, PID: 2249
+[   27.119350] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/app_instantapps/instantAppDataDb/CURRENT, Flags: 557056, PID: 2249
+[   27.122269] Syscall: write, FD: 47, Path: /data/data/com.google.android.googlequicksearchbox/app_shared_prefs/SearchSettings.bin, Count: 21690, Buf: "
+[   27.122269] 
+[   27.122269] register_to", PID: 2253
+[   27.126454] Syscall: read, FD: 119, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/CURRENT, Count: 8192, Buf: "MANIFEST-000004", PID: 2249
+[   27.129527] Syscall: read, FD: 119, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/CURRENT, Count: 8192, Buf: "MANIFEST-000004", PID: 2249
+[   27.133070] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/CURRENT, PID: 2249
+[   27.135701] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/app_instantapps/instantAppDataDb/MANIFEST-000004, Flags: 557056, PID: 2249
+[   27.138738] Syscall: read, FD: 119, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/MANIFEST-000004, Count: 32768, Buf: "Vù¸ø", PID: 2249
+[   27.141525] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/MANIFEST-000004, PID: 2249
+[   27.143987] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/app_instantapps/instantAppDataDb, Flags: 622592, PID: 2249
+[   27.145735] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb, PID: 2249
+[   27.147546] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/app_instantapps/instantAppDataDb/000005.log, Flags: 557056, PID: 2249
+[   27.149482] Syscall: write, FD: 112, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/LOG, Count: 61, Buf: "2023/05/30-17:2", PID: 2249
+[   27.151306] Syscall: close, FD: 47, Path: /data/data/com.google.android.googlequicksearchbox/app_shared_prefs/SearchSettings.bin, PID: 2253
+[   27.159428] Syscall: write, FD: 47, Path: /data/data/com.google.android.googlequicksearchbox/app_shared_prefs/SearchSettings.bin, Count: 21690, Buf: "
+[   27.159428] 
+[   27.159428] register_to", PID: 2253
+[   27.168868] Syscall: read, FD: 119, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/000005.log, Count: 32768, Buf: "Vù¸ø", PID: 2249
+[   27.171512] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/app_instantapps/instantAppDataDb/000005.log, PID: 2249
+[   27.174163] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/app_instantapps/instantAppDataDb/000007.log, Flags: 557633, PID: 2249
+[   27.176845] Syscall: close, FD: 47, Path: /data/data/com.google.android.googlequicksearchbox/app_shared_prefs/SearchSettings.bin, PID: 2253
+[   27.179312] Syscall: openat, FD: 126, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557056, PID: 2393
+[   27.181748] Syscall: pread, FD: 126, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.183791] Syscall: close, FD: 126, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.185445] Syscall: pread, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   27.186620] Syscall: close, FD: 47, Path: /data/data/com.google.android.googlequicksearchbox/app_shared_prefs/SearchSettings.bin, PID: 2253
+[   27.188141] Syscall: write, FD: 47, Path: /data/data/com.google.android.googlequicksearchbox/app_shared_prefs/SearchSettings.bin, Count: 21690, Buf: "
+[   27.188141] 
+[   27.188141] register_to", PID: 2253
+[   27.190688] Syscall: close, FD: 47, Path: /data/data/com.google.android.googlequicksearchbox/app_shared_prefs/SearchSettings.bin, PID: 2253
+[   27.192702] Syscall: openat, FD: 122, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557122, PID: 2393
+[   27.194463] Syscall: pwrite, FD: 122, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.195860] Syscall: pwrite, FD: 122, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393 -- x12 times
+[   27.197319] Syscall: pread, FD: 122, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.199666] Syscall: pwrite, FD: 122, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.201765] Syscall: openat, FD: 127, Filename: /data/user/0/com.google.android.gms/app_instantapps/prefixFilterInfoDb/LOG, Flags: 558145, PID: 2249
+[   27.205255] Syscall: openat, FD: 121, Filename: /data/user/0/com.google.android.gms/app_instantapps/prefixFilterInfoDb/LOCK, Flags: 557122, PID: 2249
+[   27.207944] Syscall: openat, FD: 124, Filename: /data/user/0/com.google.android.gms/app_instantapps/prefixFilterInfoDb/CURRENT, Flags: 557056, PID: 2249
+[   27.210273] Syscall: read, FD: 124, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/CURRENT, Count: 8192, Buf: "MANIFEST-000004", PID: 2249
+[   27.212957] Syscall: read, FD: 124, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/CURRENT, Count: 8192, Buf: "MANIFEST-000004", PID: 2249
+[   27.215601] Syscall: close, FD: 124, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/CURRENT, PID: 2249
+[   27.217806] Syscall: openat, FD: 124, Filename: /data/user/0/com.google.android.gms/app_instantapps/prefixFilterInfoDb/MANIFEST-000004, Flags: 557056, PID: 2249
+[   27.220840] Syscall: read, FD: 124, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/MANIFEST-000004, Count: 32768, Buf: "Vù¸ø", PID: 2249
+[   27.223273] Syscall: close, FD: 124, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/MANIFEST-000004, PID: 2249
+[   27.224982] Syscall: openat, FD: 124, Filename: /data/user/0/com.google.android.gms/app_instantapps/prefixFilterInfoDb, Flags: 622592, PID: 2249
+[   27.226576] Syscall: close, FD: 124, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb, PID: 2249
+[   27.227940] Syscall: openat, FD: 124, Filename: /data/user/0/com.google.android.gms/app_instantapps/prefixFilterInfoDb/000005.log, Flags: 557056, PID: 2249
+[   27.229695] Syscall: write, FD: 127, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/LOG, Count: 61, Buf: "2023/05/30-17:2", PID: 2249
+[   27.231591] Syscall: read, FD: 124, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/000005.log, Count: 32768, Buf: "Vù¸ø", PID: 2249
+[   27.233441] Syscall: close, FD: 124, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/000005.log, PID: 2249
+[   27.235029] Syscall: openat, FD: 124, Filename: /data/user/0/com.google.android.gms/app_instantapps/prefixFilterInfoDb/000007.log, Flags: 557633, PID: 2249
+[   27.236793] Syscall: pread, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2333
+[   27.238418] Syscall: close, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2333
+[   27.240035] Syscall: pread, FD: 48, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db, PID: 2333
+[   27.241562] Syscall: pread, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2333
+[   27.243209] Syscall: close, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2333
+[   27.244656] Syscall: pread, FD: 48, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db, PID: 2333
+[   27.246226] Syscall: pread, FD: 63, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2233
+[   27.248624] Syscall: close, FD: 63, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2233
+[   27.251127] Syscall: pread, FD: 48, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db, PID: 2233
+[   27.253387] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb, PID: 2249
+[   27.255577] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2422
+[   27.257511] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2422
+[   27.259378] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2422
+[   27.261304] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2422
+[   27.263230] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2422
+[   27.265192] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2422
+[   27.266677] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393 -- x3 times
+[   27.268061] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2452
+[   27.269298] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393 -- x8 times
+[   27.270791] Syscall: pread, FD: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2452
+[   27.272196] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.273535] Syscall: pread, FD: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2452
+[   27.274941] Syscall: pread, FD: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2452
+[   27.276491] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393 -- x3 times
+[   27.277883] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2422
+[   27.279230] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2422
+[   27.280646] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2422
+[   27.281935] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2422
+[   27.283382] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2422
+[   27.284782] Syscall: openat, FD: 128, Filename: /data/user/0/com.google.android.gms/app_instantapps/prefixFilterInfoDb/000006.dbtmp, Flags: 557633, PID: 2249
+[   27.286621] Syscall: write, FD: 128, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/000006.dbtmp, Count: 16, Buf: "MANIFEST-000006", PID: 2249
+[   27.288530] Syscall: openat, FD: 125, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557122, PID: 2393
+[   27.290103] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.291402] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393 -- x12 times
+[   27.293021] Syscall: pread, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.294375] Syscall: openat, FD: 47, Filename: /data/user/0/com.android.providers.contacts/databases/contacts2.db-journal, Flags: 557056, PID: 2026
+[   27.296091] Syscall: pread, FD: 47, Path: /data/data/com.android.providers.contacts/databases/contacts2.db-journal, PID: 2026
+[   27.297437] Syscall: close, FD: 47, Path: /data/data/com.android.providers.contacts/databases/contacts2.db-journal, PID: 2026
+[   27.298879] Syscall: pread, FD: 42, Path: /data/data/com.android.providers.contacts/databases/contacts2.db, PID: 2026
+[   27.300267] Syscall: openat, FD: 120, Filename: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.tag.deleted, Flags: 32834, PID: 2595
+[   27.302046] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.tag.deleted, PID: 2595
+[   27.303626] Syscall: close, FD: 128, Path: /data/data/com.google.android.gms/databases, PID: 2393
+[   27.304812] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.306115] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   27.307336] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393 -- x3 times
+[   27.308705] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.310056] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/shared_prefs/phonesky_recovery_shared_prefs.xml, Flags: 32768, PID: 3165
+[   27.311898] Syscall: read, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/phonesky_recovery_shared_prefs.xml, Count: 16384, Buf: "<?xml version='", PID: 3165
+[   27.313847] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/phonesky_recovery_shared_prefs.xml, PID: 3165
+[   27.315282] Syscall: pread, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2333
+[   27.316764] Syscall: close, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2333
+[   27.318483] Syscall: pread, FD: 48, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db, PID: 2333
+[   27.320216] Syscall: pread, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2333
+[   27.322629] Syscall: close, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2333
+[   27.325107] Syscall: pread, FD: 48, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db, PID: 2333
+[   27.327520] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2372
+[   27.329795] Syscall: pread, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2232
+[   27.332494] Syscall: close, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2232
+[   27.334970] Syscall: pread, FD: 48, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db, PID: 2232
+[   27.337445] Syscall: pread, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2233
+[   27.339903] Syscall: close, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2233
+[   27.342470] Syscall: pread, FD: 48, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db, PID: 2233
+[   27.344564] Syscall: pread, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2233
+[   27.346121] Syscall: pread, FD: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2404
+[   27.347484] Syscall: pread, FD: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2404 -- x2 times
+[   27.348864] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2404
+[   27.350043] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2372
+[   27.351308] Syscall: close, FD: 38, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db-journal, PID: 2233
+[   27.352853] Syscall: pread, FD: 48, Path: /data/data/com.google.android.googlequicksearchbox/databases/icingcorpora.db, PID: 2233
+[   27.354479] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2372
+[   27.355995] Syscall: pread, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699 -- x11 times
+[   27.357729] Syscall: openat, FD: 138, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557056, PID: 2393
+[   27.359599] Syscall: pread, FD: 138, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.361242] Syscall: close, FD: 138, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.362959] Syscall: pread, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   27.364636] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557122, PID: 2393
+[   27.366346] Syscall: pwrite, FD: 120, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.367858] Syscall: pread, FD: 120, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.369328] Syscall: openat, FD: 40, Filename: /data/user/0/com.google.android.gsf/databases/googlesettings.db-journal, Flags: 557056, PID: 2639
+[   27.371196] Syscall: pread, FD: 40, Path: /data/data/com.google.android.gsf/databases/googlesettings.db-journal, PID: 2639
+[   27.372864] Syscall: close, FD: 40, Path: /data/data/com.google.android.gsf/databases/googlesettings.db-journal, PID: 2639
+[   27.374366] Syscall: pread, FD: 36, Path: /data/data/com.google.android.gsf/databases/googlesettings.db, PID: 2639
+[   27.375923] Syscall: openat, FD: 132, Filename: /data/user/0/com.google.android.gms/databases, Flags: 557056, PID: 2393
+[   27.377552] Syscall: openat, FD: 39, Filename: /data/user/0/com.google.android.gsf/databases/googlesettings.db-journal, Flags: 557056, PID: 2639
+[   27.379438] Syscall: pread, FD: 39, Path: /data/data/com.google.android.gsf/databases/googlesettings.db-journal, PID: 2639
+[   27.381294] Syscall: close, FD: 39, Path: /data/data/com.google.android.gsf/databases/googlesettings.db-journal, PID: 2639
+[   27.382849] Syscall: pread, FD: 36, Path: /data/data/com.google.android.gsf/databases/googlesettings.db, PID: 2639
+[   27.384452] Syscall: openat, FD: 39, Filename: /data/user/0/com.google.android.gsf/databases/googlesettings.db-journal, Flags: 557056, PID: 2403
+[   27.386365] Syscall: pread, FD: 39, Path: /data/data/com.google.android.gsf/databases/googlesettings.db-journal, PID: 2403
+[   27.388098] Syscall: close, FD: 39, Path: /data/data/com.google.android.gsf/databases/googlesettings.db-journal, PID: 2403
+[   27.390117] Syscall: pread, FD: 36, Path: /data/data/com.google.android.gsf/databases/googlesettings.db, PID: 2403
+[   27.392418] Syscall: openat, FD: 39, Filename: /data/user/0/com.google.android.gsf/databases/googlesettings.db-journal, Flags: 557056, PID: 3136
+[   27.395202] Syscall: pread, FD: 39, Path: /data/data/com.google.android.gsf/databases/googlesettings.db-journal, PID: 3136
+[   27.397749] Syscall: close, FD: 39, Path: /data/data/com.google.android.gsf/databases/googlesettings.db-journal, PID: 3136
+[   27.399515] Syscall: pread, FD: 36, Path: /data/data/com.google.android.gsf/databases/googlesettings.db, PID: 3136
+[   27.401347] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2404 -- x2 times
+[   27.403159] Syscall: openat, FD: 39, Filename: /data/user/0/com.google.android.gsf/databases/googlesettings.db-journal, Flags: 557056, PID: 2027
+[   27.405926] Syscall: pread, FD: 39, Path: /data/data/com.google.android.gsf/databases/googlesettings.db-journal, PID: 2027
+[   27.408440] Syscall: close, FD: 39, Path: /data/data/com.google.android.gsf/databases/googlesettings.db-journal, PID: 2027
+[   27.411046] Syscall: pread, FD: 36, Path: /data/data/com.google.android.gsf/databases/googlesettings.db, PID: 2027
+[   27.413690] Syscall: pread, FD: 66, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3168 -- x2 times
+[   27.415374] Syscall: openat, FD: 69, Filename: /data/user_de/0/com.android.providers.telephony/databases/telephony.db-journal, Flags: 557056, PID: 2070
+[   27.417391] Syscall: pread, FD: 69, Path: /data/user_de/0/com.android.providers.telephony/databases/telephony.db-journal, PID: 2070
+[   27.419184] Syscall: close, FD: 69, Path: /data/user_de/0/com.android.providers.telephony/databases/telephony.db-journal, PID: 2070
+[   27.420997] Syscall: pread, FD: 35, Path: /data/user_de/0/com.android.providers.telephony/databases/telephony.db, PID: 2070
+[   27.422697] Syscall: pread, FD: 68, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3168
+[   27.424172] Syscall: close, FD: 132, Path: /data/data/com.google.android.gms/databases, PID: 2393
+[   27.425094] Syscall: pwrite, FD: 120, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.426199] Syscall: pread, FD: 68, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3168 -- x2 times
+[   27.427523] Syscall: openat, FD: 119, Filename: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.status, Flags: 32834, PID: 2595
+[   27.429156] Syscall: lseek, FD: 119, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.status, PID: 2595
+[   27.430585] Syscall: write, FD: 119, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.status, Count: 446, Buf: "þŒØ£", PID: 2595
+[   27.432432] Syscall: write, FD: 119, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.status, Count: 4, Buf: "”Œ/‘", PID: 2595
+[   27.434282] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.status, PID: 2595
+[   27.435880] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/files/AppDataSearch/main/main-corpus-scratch-data.tmp, Flags: 33345, PID: 2595
+[   27.438094] Syscall: write, FD: 119, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/main-corpus-scratch-data.tmp, Count: 320, Buf: "", PID: 2595
+[   27.441073] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/files/AppDataSearch/main/main-corpus-scratch-data.tmp, PID: 2595
+[   27.443408] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/files/checkin_id_token, Flags: 32768, PID: 2445
+[   27.445822] Syscall: read, FD: 119, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   27.448433] Syscall: read, FD: 119, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   27.451128] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/files/checkin_id_token, PID: 2445
+[   27.453172] Syscall: openat, FD: 121, Filename: /data/user/0/com.google.android.gms/files/checkin_id_token, Flags: 32768, PID: 2445
+[   27.455429] Syscall: read, FD: 121, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   27.458034] Syscall: read, FD: 121, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   27.460771] Syscall: close, FD: 121, Path: /data/data/com.google.android.gms/files/checkin_id_token, PID: 2445
+[   27.462887] Syscall: openat, FD: 121, Filename: /data/user/0/com.google.android.gms/files/checkin_id_token, Flags: 32768, PID: 2445
+[   27.464564] Syscall: read, FD: 121, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   27.466391] Syscall: read, FD: 121, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   27.468254] Syscall: close, FD: 121, Path: /data/data/com.google.android.gms/files/checkin_id_token, PID: 2445
+[   27.469981] Syscall: openat, FD: 121, Filename: /data/user/0/com.google.android.gms/databases/reminders.db-journal, Flags: 557056, PID: 3032
+[   27.471771] Syscall: pread, FD: 121, Path: /data/data/com.google.android.gms/databases/reminders.db-journal, PID: 3032
+[   27.473283] Syscall: close, FD: 121, Path: /data/data/com.google.android.gms/databases/reminders.db-journal, PID: 3032
+[   27.474927] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/reminders.db, PID: 3032
+[   27.476253] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/databases/google_app_measurement.db-journal, Flags: 557056, PID: 3125
+[   27.478134] Syscall: pread, FD: 120, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db-journal, PID: 3125
+[   27.479752] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db-journal, PID: 3125
+[   27.481471] Syscall: pread, FD: 118, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db, PID: 3125
+[   27.482987] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/databases/google_app_measurement.db-journal, Flags: 557056, PID: 3125
+[   27.484647] ieee80211 phy0: mac80211_hwsim_config (freq=2412(2412 - 0)/noht idle=0 ps=0 smps=static)
+[   27.484654] hwsim sw_scan request, prepping stuff
+[   27.484670] ieee80211 phy0: mac80211_hwsim_configure_filter
+[   27.484828] Syscall: pread, FD: 120, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db-journal, PID: 3125
+[   27.485212] ieee80211 phy0: mac80211_hwsim_config (freq=2412(2412 - 0)/noht idle=0 ps=0 smps=static)
+[   27.486386] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db-journal, PID: 3125
+[   27.487964] Syscall: pread, FD: 118, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db, PID: 3125
+[   27.489442] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/databases/google_app_measurement.db-journal, Flags: 557056, PID: 3125
+[   27.492474] Syscall: pread, FD: 120, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db-journal, PID: 3125
+[   27.494956] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db-journal, PID: 3125
+[   27.497421] Syscall: pread, FD: 118, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db, PID: 3125
+[   27.499704] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/databases/google_app_measurement.db-journal, Flags: 557056, PID: 3125
+[   27.502612] Syscall: pread, FD: 120, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db-journal, PID: 3125
+[   27.505065] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db-journal, PID: 3125
+[   27.507446] Syscall: pread, FD: 118, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db, PID: 3125
+[   27.509692] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/databases/google_app_measurement.db-journal, Flags: 557056, PID: 3125
+[   27.512629] Syscall: pread, FD: 120, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db-journal, PID: 3125
+[   27.514966] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db-journal, PID: 3125
+[   27.516615] Syscall: pread, FD: 118, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db, PID: 3125
+[   27.518173] Syscall: pread, FD: 118, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db, PID: 3125
+[   27.519743] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/databases/google_app_measurement.db-journal, Flags: 557056, PID: 3125
+[   27.521807] Syscall: pread, FD: 120, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db-journal, PID: 3125
+[   27.523420] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db-journal, PID: 3125
+[   27.525141] Syscall: pread, FD: 118, Path: /data/data/com.google.android.gms/databases/google_app_measurement.db, PID: 3125
+[   27.526645] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/files/google_app_measurement.db, Flags: 32834, PID: 3125
+[   27.528352] Syscall: lseek, FD: 119, Path: /data/data/com.google.android.gms/files/google_app_measurement.db, PID: 3125
+[   27.530047] Syscall: read, FD: 119, Path: /data/data/com.google.android.gms/files/google_app_measurement.db, Count: 4, Buf: "—Ç", PID: 3125
+[   27.531745] Syscall: openat, FD: 134, Filename: /data/user/0/com.google.android.gms/files/mobstore_salt.pb, Flags: 32768, PID: 3172
+[   27.533345] Syscall: read, FD: 134, Path: /data/data/com.google.android.gms/files/mobstore_salt.pb, Count: 4096, Buf: "
+[   27.533345] -731105995770", PID: 3172
+[   27.535295] Syscall: read, FD: 134, Path: /data/data/com.google.android.gms/files/mobstore_salt.pb, Count: 4096, Buf: "
+[   27.535295] -731105995770", PID: 3172
+[   27.537247] Syscall: close, FD: 134, Path: /data/data/com.google.android.gms/files/mobstore_salt.pb, PID: 3172
+[   27.538642] Syscall: openat, FD: 117, Filename: /data/user/0/com.google.android.gms/databases/snet_safe_browsing.db, Flags: 557122, PID: 2694
+[   27.540206] ieee80211 phy0: mac80211_hwsim_config (freq=2417(2417 - 0)/noht idle=0 ps=0 smps=static)
+[   27.540547] Syscall: pread, FD: 117, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db, PID: 2694
+[   27.541987] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/databases/snet_safe_browsing.db-journal, Flags: 557056, PID: 2694
+[   27.543902] Syscall: pread, FD: 120, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db-journal, PID: 2694
+[   27.545542] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db-journal, PID: 2694
+[   27.547101] Syscall: pread, FD: 117, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db, PID: 2694
+[   27.548498] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/databases/snet_safe_browsing.db-journal, Flags: 557056, PID: 2694
+[   27.550515] Syscall: pread, FD: 120, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db-journal, PID: 2694
+[   27.552154] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db-journal, PID: 2694
+[   27.553872] Syscall: pread, FD: 117, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db, PID: 2694
+[   27.555385] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/databases/snet_safe_browsing.db-journal, Flags: 557056, PID: 2694
+[   27.557351] Syscall: pread, FD: 120, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db-journal, PID: 2694
+[   27.558919] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db-journal, PID: 2694
+[   27.560566] Syscall: pread, FD: 117, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db, PID: 2694
+[   27.561999] Syscall: pread, FD: 117, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db, PID: 2694
+[   27.563490] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/databases/snet_safe_browsing.db-journal, Flags: 557056, PID: 2694
+[   27.566099] Syscall: pread, FD: 120, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db-journal, PID: 2694
+[   27.568342] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db-journal, PID: 2694
+[   27.570582] Syscall: pread, FD: 117, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db, PID: 2694
+[   27.572855] Syscall: openat, FD: 121, Filename: /data/user/0/com.google.android.gms/databases/snet_safe_browsing.db-journal, Flags: 557056, PID: 2694
+[   27.575543] Syscall: pread, FD: 121, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db-journal, PID: 2694
+[   27.577951] Syscall: close, FD: 121, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db-journal, PID: 2694
+[   27.580446] Syscall: pread, FD: 117, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db, PID: 2694
+[   27.582315] Syscall: openat, FD: 132, Filename: /data/user/0/com.google.android.gms/files/clearcut/0/EASY_UNLOCK_COUNTERS/1099069149/play_logger_context.pb, Flags: 33345, PID: 2372
+[   27.585211] Syscall: write, FD: 132, Path: /data/data/com.google.android.gms/files/clearcut/0/EASY_UNLOCK_COUNTERS/1099069149/play_logger_context.pb, Count: 564, Buf: "com.google.", PID: 2372
+[   27.587654] Syscall: close, FD: 132, Path: /data/data/com.google.android.gms/files/clearcut/0/EASY_UNLOCK_COUNTERS/1099069149/play_logger_context.pb, PID: 2372
+[   27.589329] Syscall: openat, FD: 132, Filename: /data/user/0/com.google.android.gms/files/clearcut/0/EASY_UNLOCK_COUNTERS/1099069149/1685456511914.NONE, Flags: 33857, PID: 2372
+[   27.591210] Syscall: write, FD: 132, Path: /data/data/com.google.android.gms/files/clearcut/0/EASY_UNLOCK_COUNTERS/1099069149/1685456511914.NONE, Count: 20, Buf: "<š¯¥è†12êº", PID: 2372
+[   27.593148] Syscall: write, FD: 132, Path: /data/data/com.google.android.gms/files/clearcut/0/EASY_UNLOCK_COUNTERS/1099069149/1685456511914.NONE, Count: 41, Buf: ",@ø‚xà¨", PID: 2372
+[   27.595070] Syscall: pread, FD: 117, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db, PID: 2694
+[   27.596316] Syscall: close, FD: 117, Path: /data/data/com.google.android.gms/databases/snet_safe_browsing.db, PID: 2694
+[   27.597539] Syscall: openat, FD: 117, Filename: /data/user/0/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/LOG, Flags: 558145, PID: 2694
+[   27.598905] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/LOCK, Flags: 557122, PID: 2694
+[   27.600039] ieee80211 phy0: mac80211_hwsim_config (freq=2422(2422 - 0)/noht idle=0 ps=0 smps=static)
+[   27.600330] Syscall: openat, FD: 121, Filename: /data/user/0/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/CURRENT, Flags: 557056, PID: 2694
+[   27.601826] Syscall: read, FD: 121, Path: /data/data/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/CURRENT, Count: 8192, Buf: "MANIFEST-000004", PID: 2694
+[   27.603313] Syscall: read, FD: 121, Path: /data/data/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/CURRENT, Count: 8192, Buf: "MANIFEST-000004", PID: 2694
+[   27.604766] Syscall: close, FD: 121, Path: /data/data/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/CURRENT, PID: 2694
+[   27.606031] Syscall: openat, FD: 121, Filename: /data/user/0/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/MANIFEST-000004, Flags: 557056, PID: 2694
+[   27.607475] Syscall: read, FD: 121, Path: /data/data/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/MANIFEST-000004, Count: 32768, Buf: "Vù¸ø", PID: 2694
+[   27.608996] Syscall: close, FD: 121, Path: /data/data/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/MANIFEST-000004, PID: 2694
+[   27.610252] Syscall: openat, FD: 121, Filename: /data/user/0/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1, Flags: 622592, PID: 2694
+[   27.611589] Syscall: close, FD: 121, Path: /data/data/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1, PID: 2694
+[   27.612745] Syscall: openat, FD: 121, Filename: /data/user/0/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/000006.log, Flags: 557056, PID: 2694
+[   27.614188] Syscall: write, FD: 117, Path: /data/data/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/LOG, Count: 61, Buf: "2023/05/30-17:2", PID: 2694
+[   27.615667] Syscall: read, FD: 121, Path: /data/data/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/000006.log, Count: 32768, Buf: "Vù¸ø", PID: 2694
+[   27.617228] Syscall: close, FD: 121, Path: /data/data/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/000006.log, PID: 2694
+[   27.618477] Syscall: openat, FD: 121, Filename: /data/user/0/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/000008.log, Flags: 557633, PID: 2694
+[   27.619954] Syscall: openat, FD: 122, Filename: /data/user/0/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/MANIFEST-000007, Flags: 557633, PID: 2694
+[   27.621418] Syscall: write, FD: 122, Path: /data/data/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/MANIFEST-000007, Count: 67, Buf: "$ò~é<", PID: 2694
+[   27.623034] Syscall: write, FD: 122, Path: /data/data/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1/MANIFEST-000007, Count: 17, Buf: "håó
+[   27.623034] ", PID: 2694
+[   27.624690] Syscall: openat, FD: 123, Filename: /data/user/0/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1, Flags: 557056, PID: 2694
+[   27.625994] Syscall: close, FD: 123, Path: /data/data/com.google.android.gms/snet/leveldb/snet_sb_blacklist_1, PID: 2694
+[   27.627098] Syscall: openat, FD: 133, Filename: /data/user/0/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, Flags: 32768, PID: 3174
+[   27.628701] Syscall: read, FD: 133, Path: /data/data/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, Count: 16384, Buf: "<?xml version='", PID: 3174
+[   27.630417] Syscall: close, FD: 133, Path: /data/data/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, PID: 3174
+[   27.631710] Syscall: write, FD: 133, Path: /data/data/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, Count: 149, Buf: "<?xml version='", PID: 2336
+[   27.633334] Syscall: close, FD: 133, Path: /data/data/com.google.android.gms/shared_prefs/contact_tracing_data_quality_record_db.xml, PID: 2336
+[   27.634709] Syscall: write, FD: 5, Path: pipe:[3874], Count: 1, Buf: " ", PID: 1570
+[   27.635529] Syscall: read, FD: 4, Path: pipe:[3874], Count: 16, Buf: " Á", PID: 1567
+[   27.636374] Syscall: close, FD: 122, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.637558] Syscall: pread, FD: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3053
+[   27.638772] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3053
+[   27.639946] Syscall: pread, FD: 105, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3053 -- x21 times
+[   27.641307] Syscall: pread, FD: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3053
+[   27.642465] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.643498] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3052
+[   27.644491] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3052 -- x2 times
+[   27.645583] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.646609] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052 -- x7 times
+[   27.647955] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3052
+[   27.649130] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.650356] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3052
+[   27.651500] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.652686] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.653883] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3052
+[   27.655274] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.656483] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3052
+[   27.657698] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.658969] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.660201] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3052
+[   27.661351] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.662685] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.664113] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3052
+[   27.665651] ieee80211 phy0: mac80211_hwsim_config (freq=2427(2427 - 0)/noht idle=0 ps=0 smps=static)
+[   27.665823] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.667615] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.669353] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3052
+[   27.671291] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.673412] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 3052
+[   27.675380] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 3052
+[   27.677376] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/shared_prefs/platform_prefs.xml, Flags: 33345, PID: 2894
+[   27.679392] Syscall: write, FD: 120, Path: /data/data/com.google.android.gms/shared_prefs/platform_prefs.xml, Count: 474, Buf: "<?xml version='", PID: 2894
+[   27.682173] Syscall: openat, FD: 125, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557056, PID: 2393
+[   27.684121] Syscall: pread, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.685695] Syscall: close, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.687111] Syscall: pread, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   27.688246] Syscall: openat, FD: 125, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557122, PID: 2393
+[   27.689671] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.690892] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393 -- x12 times
+[   27.692130] Syscall: pread, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.693190] Syscall: openat, FD: 122, Filename: /data/user/0/com.google.android.gms/app_instantapps/prefixFilterInfoDb/MANIFEST-000006, Flags: 557633, PID: 2249
+[   27.694672] Syscall: close, FD: 120, Path: /data/data/com.google.android.gms/shared_prefs/platform_prefs.xml, PID: 2894
+[   27.695886] Syscall: write, FD: 122, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/MANIFEST-000006, Count: 35, Buf: "Vù¸ø", PID: 2249
+[   27.697425] Syscall: write, FD: 122, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/MANIFEST-000006, Count: 15, Buf: "ê¡—D", PID: 2249
+[   27.699173] Syscall: openat, FD: 120, Filename: /data/user/0/com.google.android.gms/app_instantapps/prefixFilterInfoDb, Flags: 557056, PID: 2249
+[   27.700656] Syscall: openat, FD: 126, Filename: /data/user/0/com.google.android.gms/databases, Flags: 557056, PID: 2393
+[   27.702102] Syscall: close, FD: 126, Path: /data/data/com.google.android.gms/databases, PID: 2393
+[   27.703295] Syscall: openat, FD: 118, Filename: /data/user/0/com.google.android.gms/files/checkin_id_token, Flags: 32768, PID: 2445
+[   27.705058] Syscall: read, FD: 118, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   27.706987] Syscall: read, FD: 118, Path: /data/data/com.google.android.gms/files/checkin_id_token, Count: 1024, Buf: "445306271139395", PID: 2445
+[   27.708653] Syscall: close, FD: 118, Path: /data/data/com.google.android.gms/files/checkin_id_token, PID: 2445
+[   27.709921] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.711195] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   27.712439] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.713665] Syscall: close, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.714842] Syscall: openat, FD: 126, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557056, PID: 2393
+[   27.716466] Syscall: pread, FD: 126, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.717641] Syscall: close, FD: 126, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.718826] Syscall: pread, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   27.719942] Syscall: openat, FD: 125, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557122, PID: 2393
+[   27.720070] ieee80211 phy0: mac80211_hwsim_config (freq=2432(2432 - 0)/noht idle=0 ps=0 smps=static)
+[   27.722177] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.724059] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393 -- 9 times
+[   27.726117] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.727999] Syscall: pwrite, D: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2452
+[   27.730011] Syscall: pread, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.732017] Syscall: pread, FD: 106, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2452 -- x3 times
+[   27.733900] Syscall: openat, FD: 128, Filename: /data/user/0/com.google.android.gms/databases, Flags: 557056, PID: 2393
+[   27.735687] Syscall: close, FD: 128, Path: /data/data/com.google.android.gms/databases, PID: 2393
+[   27.737145] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.738864] Syscall: pwrite, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   27.740558] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2422
+[   27.742319] Syscall: pwrite, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.744507] Syscall: close, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.746043] Syscall: openat, FD: 125, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557056, PID: 2393
+[   27.747408] Syscall: pread, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.748575] Syscall: close, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.749599] Syscall: pread, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393
+[   27.750567] Syscall: pread, FD: 42, Path: /data/data/com.android.providers.contacts/databases/contacts2.db, PID: 2026
+[   27.751958] Syscall: close, FD: 128, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/000006.dbtmp, PID: 2249
+[   27.753869] Syscall: openat, FD: 128, Filename: /data/user/0/com.google.android.gms/app_instantapps/prefixFilterInfoDb, Flags: 622592, PID: 2249
+[   27.755934] Syscall: pread, FD: 44, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2699
+[   27.757459] Syscall: close, FD: 128, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb, PID: 2249
+[   27.759012] Syscall: write, FD: 127, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/LOG, Count: 60, Buf: "2023/05/30-17:2", PID: 2249
+[   27.761112] Syscall: write, FD: 127, Path: /data/data/com.google.android.gms/app_instantapps/prefixFilterInfoDb/LOG, Count: 60, Buf: "2023/05/30-17:2", PID: 2249
+[   27.763109] Syscall: openat, FD: 128, Filename: /data/user/0/com.google.android.gms/databases, Flags: 557056, PID: 2393
+[   27.764587] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2422
+[   27.766041] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2422 -- x4 times
+[   27.767650] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2422
+[   27.769080] Syscall: pread, FD: 47, Path: /data/data/com.google.android.gms/databases/phenotype.db, PID: 2422 -- x4 times
+[   27.770659] Syscall: pread, FD: 48, Path: /data/data/com.google.android.gms/databases/phenotype.db-wal, PID: 2422
+[   27.772153] Syscall: openat, FD: 119, Filename: /data/user/0/com.google.android.gms/shared_prefs/com.google.android.gms.playlog.uploader.xml, Flags: 33345, PID: 2446
+[   27.774284] Syscall: write, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/com.google.android.gms.playlog.uploader.xml, Count: 6047, Buf: "<?xml version='", PID: 2446
+[   27.776731] Syscall: close, FD: 119, Path: /data/data/com.google.android.gms/shared_prefs/com.google.android.gms.playlog.uploader.xml, PID: 2446
+[   27.778064] Syscall: openat, FD: 119, Filename: /data/user_de/0/com.google.android.gms/shared_prefs/com.google.android.gms.playlog.uploader.xml, Flags: 33345, PID: 2446
+[   27.779670] Syscall: write, FD: 119, Path: /data/user_de/0/com.google.android.gms/shared_prefs/com.google.android.gms.playlog.uploader.xml, Count: 6047, Buf: "<?xml version='", PID: 2446
+[   27.780036] ieee80211 phy0: mac80211_hwsim_config (freq=2437(2437 - 0)/noht idle=0 ps=0 smps=static)
+[   27.781476] Syscall: close, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.782633] Syscall: close, FD: 119, Path: /data/user_de/0/com.google.android.gms/shared_prefs/com.google.android.gms.playlog.uploader.xml, PID: 2446
+[   27.784145] Syscall: openat, FD: 125, Filename: /data/user/0/com.google.android.gms/databases/ns.db-journal, Flags: 557056, PID: 2393
+[   27.785422] Syscall: pread, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.786500] Syscall: write, FD: 11, Path: pipe:[3294], Count: 1, Buf: "", PID: 3163
+[   27.787389] Syscall: read, FD: 7, Path: pipe:[3294], Count: 1, Buf: "", PID: 1296
+[   27.788296] Syscall: close, FD: 125, Path: /data/data/com.google.android.gms/databases/ns.db-journal, PID: 2393
+[   27.789459] Syscall: pread, FD: 61, Path: /data/data/com.google.android.gms/databases/ns.db, PID: 2393

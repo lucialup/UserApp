@@ -1,7 +1,33 @@
 const gi = require('node-gtk');
 const Gtk = gi.require('Gtk', '3.0');
-const { exec } = require('child_process');
 const execSync = require('child_process').execSync;
+const fs = require('fs');
+const { generateHTML } = require('./generateReport');
+
+function parseLogs(logsString) {
+    const lines = logsString.split('\n');
+    const logPattern = /\[(\s*\d+\.\d+)\]\s+Syscall:\s+(\w+),\s+File descriptor:\s+(\d+)(?:,\s+Path:\s+(.*?))?(?:,\s+Count:\s+(\d+))?(?:,\s+Buf:\s+(.*?))?,\s+Process ID:\s+(\d+)/;
+
+    const parsedLogs = [];
+    for (let line of lines) {
+        const match = line.match(logPattern);
+        if (match) {
+            const log = {
+                timestamp: match[1].trim(),
+                syscall: match[2].trim(),
+                fd: match[3].trim(),
+                path: match[4] ? match[4].trim() : undefined,
+                count: match[5] ? match[5].trim() : undefined,
+                buf: match[6] ? match[6].trim() : undefined,
+                pid: match[7].trim(),
+            };
+            parsedLogs.push(log);
+        }
+    }
+    return parsedLogs;
+}
+
+
 function createDiagnosticsPage(win) {
     let apkPath = '';
     let logProc = null;
@@ -11,7 +37,7 @@ function createDiagnosticsPage(win) {
     const fetchLogs = Gtk.Button.new();
 
     page.on('destroy', () => {
-        if(logProc){
+        if (logProc) {
             logProc.kill();
         }
     });
@@ -19,17 +45,13 @@ function createDiagnosticsPage(win) {
 
     fetchLogs.setLabel('Fetch Logs');
     fetchLogs.on('clicked', () => {
-        exec('adb shell dmesg > logs.txt', (error, stdout, stderr) => {
-            if (error) {
-                console.log(`error: ${error.message}`);
-                return;
-            }
-            if (stderr) {
-                console.log(`stderr: ${stderr}`);
-                return;
-            }
-            console.log(`stdout: ${stdout}`);
-        });
+        execSync('adb shell dmesg > logs.txt');
+
+        const logs = parseLogs(fs.readFileSync('logs.txt', 'utf-8'));
+        const html = generateHTML(logs);
+
+        fs.writeFileSync('report.html', html);
+        // execSync('open report.html'); // Open the report file
     });
 
     const scanLogs = Gtk.Button.new();
@@ -54,4 +76,5 @@ function createDiagnosticsPage(win) {
     vbox.add(scanLogs);
     return page;
 }
+
 module.exports = { createDiagnosticsPage };
