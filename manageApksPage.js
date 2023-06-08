@@ -1,27 +1,35 @@
 const gi = require('node-gtk');
 const Gtk = gi.require('Gtk', '3.0');
-const { spawn } = require('child_process');
+const { spawn, spawnSync } = require('child_process');
+const Gdk = gi.require('Gdk', '3.0');
+const exec = require('sync-exec');
 
 function createLoadApkPage(win) {
-    let apkPath = '';
-    let handleApkProc = null;
-
-    const page = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL });
-    const vbox = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL });
+    const page = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL, margin: 20 });
+    const vbox = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL, spacing: 10 });
+    const apkListBox = new Gtk.ListBox();
     const browseApkPathBtn = Gtk.Button.new();
-    const loadApkBtn = Gtk.Button.new();
-    const runApkBtn = Gtk.Button.new();
-    const stopApkBtn = Gtk.Button.new();
-    const unloadApkBtn = Gtk.Button.new();
+    const provider = Gtk.CssProvider.new();
+
+    provider.loadFromPath('styles.css');
+    Gtk.StyleContext.addProviderForScreen(Gdk.Screen.getDefault(), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
     page.on('destroy', () => {
-        if(handleApkProc){
-            handleApkProc.kill();
-        }
+        // handle clean up here
     });
     page.on('delete-event', () => false);
 
-    browseApkPathBtn.setLabel('Browse APK path');
+    const browseApkPathIcon = Gtk.Image.newFromIconName('document-open', Gtk.IconSize.BUTTON);
+    browseApkPathBtn.setImage(browseApkPathIcon);
+    browseApkPathBtn.setTooltipText('Select APK file');
+    browseApkPathBtn.name = 'custom-button';
+
+    const apkPathLabel = new Gtk.Label({ label: 'APK Path:' });
+    const apkPathEntry = new Gtk.Entry();
+    const apkPathBox = new Gtk.Box({ orientation: Gtk.Orientation.HORIZONTAL, spacing: 10 });
+    apkPathBox.packStart(apkPathLabel, false, false, 0);
+    apkPathBox.packStart(apkPathEntry, true, true, 0);
+
     browseApkPathBtn.on('clicked', () => {
         let dialog = new Gtk.FileChooserDialog();
         dialog.setTitle('Select APK file');
@@ -34,51 +42,84 @@ function createLoadApkPage(win) {
 
         let response = dialog.run();
         if (response === Gtk.ResponseType.OK) {
-            apkPath = dialog.getFilename();
+            let apkPath = dialog.getFilename();
+            apkPathEntry.setText(apkPath);
+            createApkListItem(apkPath);
         }
         dialog.destroy();
     });
 
-    loadApkBtn.setLabel('Load APK into emulator!');
-    loadApkBtn.on('clicked', () => {
+    function getApkPackageName(apkPath) {
         const command = '/bin/bash';
-        const args = ['-c', `adb -s emulator-5554 install ${apkPath}`];
+        const args = [
+            '-c',
+            `aapt dump badging "${apkPath}" | grep package: | awk -F "'" '{print $2}' | awk '{print $1}'`
+        ];
 
-        handleApkProc = spawn('gnome-terminal', ['--', command, ...args]);
-    });
+        let output = spawnSync(command, args, { encoding: 'utf-8' });
+        if (output.status === 0) {
+            return output.stdout.trim();
+        } else {
+            return 'Package Name Unknown';
+        }
+    }
+    function createApkListItem(apkPath) {
+        let handleApkProc = null;
+        let apkRow = new Gtk.ListBoxRow();
+        let apkBox = new Gtk.Box({ orientation: Gtk.Orientation.HORIZONTAL, spacing: 10 });
+        let apkLabel = new Gtk.Label({ label: getApkPackageName(apkPath) });
+        let loadApkBtn = Gtk.Button.newWithLabel('Load APK into emulator!');
+        let runApkBtn = Gtk.Button.newWithLabel('Run app!');
+        let stopApkBtn = Gtk.Button.newWithLabel('Stop app!');
+        let unloadApkBtn = Gtk.Button.newWithLabel('Uninstall app!');
 
-    runApkBtn.setLabel('Run app!');
-    runApkBtn.on('clicked', () => {
-        const command = '/bin/bash';
-        const args = ['-c', `aapt dump badging ${apkPath} | grep package: | awk -F "'" '{print $2}' | awk '{print $1}' | xargs -I {} adb -s emulator-5554 shell am start -n {}/.MainActivity`];
+        loadApkBtn.name = 'custom-button';
+        runApkBtn.name = 'custom-button';
+        stopApkBtn.name = 'custom-button';
+        unloadApkBtn.name = 'custom-button';
 
-        handleApkProc = spawn('gnome-terminal', ['--', command, ...args]);
-    });
+        loadApkBtn.on('clicked', () => {
+            const command = '/bin/bash';
+            const args = ['-c', `adb -s emulator-5554 install ${apkPath}`];
+            handleApkProc = spawn('gnome-terminal', ['--', command, ...args]);
+            loadApkBtn.setSensitive(false);
+        });
 
+        runApkBtn.on('clicked', () => {
+            const command = '/bin/bash';
+            const args = ['-c', `aapt dump badging ${apkPath} | grep package: | awk -F "'" '{print $2}' | awk '{print $1}' | xargs -I {} adb -s emulator-5554 shell am start -n {}/.MainActivity`];
+            handleApkProc = spawn('gnome-terminal', ['--', command, ...args]);
+        });
 
-    stopApkBtn.setLabel('Stop app!');
-    stopApkBtn.on('clicked', () => {
-        const command = '/bin/bash';
-        const args = ['-c', `aapt dump badging ${apkPath} | grep package: | awk -F "'" '{print $2}' | awk '{print $1}' | xargs -I {} adb -s emulator-5554 shell am force-stop {}`];
+        stopApkBtn.on('clicked', () => {
+            const command = '/bin/bash';
+            const args = ['-c', `aapt dump badging ${apkPath} | grep package: | awk -F "'" '{print $2}' | awk '{print $1}' | xargs -I {} adb -s emulator-5554 shell am force-stop {}`];
+            handleApkProc = spawn('gnome-terminal', ['--', command, ...args]);
+        });
 
-        handleApkProc = spawn('gnome-terminal', ['--', command, ...args]);
-    });
+        unloadApkBtn.on('clicked', () => {
+            const command = '/bin/bash';
+            const args = ['-c', `aapt dump badging ${apkPath} | grep package: | awk -F "'" '{print $2}' | awk '{print $1}' | xargs -I {} adb -s emulator-5554 uninstall {}`];
+            handleApkProc = spawn('gnome-terminal', ['--', command, ...args]);
+            apkListBox.remove(apkRow);
+        });
 
-    unloadApkBtn.setLabel('Uninstall app!');
-    unloadApkBtn.on('clicked', () => {
-        const command = '/bin/bash';
-        const args = ['-c', `aapt dump badging ${apkPath} | grep package: | awk -F "'" '{print $2}' | awk '{print $1}' | xargs -I {} adb -s emulator-5554 uninstall {}`];
+        apkBox.packStart(apkLabel, false, false, 5);
+        apkBox.packStart(loadApkBtn, false, false, 5);
+        apkBox.packStart(runApkBtn, false, false, 5);
+        apkBox.packStart(stopApkBtn, false, false, 5);
+        apkBox.packStart(unloadApkBtn, false, false, 5);
+        apkRow.add(apkBox);
+        apkListBox.add(apkRow);
 
-        handleApkProc = spawn('gnome-terminal', ['--', command, ...args]);
-    });
+        apkListBox.showAll();
+    }
 
+    page.packStart(apkPathBox, false, false, 5);
+    page.packStart(browseApkPathBtn, false, false, 5);
+    page.packStart(apkListBox, false, false, 5);
 
-    page.add(vbox);
-    vbox.add(browseApkPathBtn)
-    vbox.add(loadApkBtn);
-    vbox.add(runApkBtn);
-    vbox.add(stopApkBtn);
-    vbox.add(unloadApkBtn);
     return page;
 }
+
 module.exports = { createLoadApkPage };

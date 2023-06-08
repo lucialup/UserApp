@@ -26,3 +26,4 @@ Diagnostic page
 -> filter input available, button 'filter'
 -> check for malware button -> malware page where rule should be selected / given as input, and the logs should be filtered by that
 
+https://colorpalettes.net/color-palette-4553/
