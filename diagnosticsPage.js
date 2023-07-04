@@ -1,4 +1,5 @@
 const gi = require('node-gtk');
+const Gdk = gi.require('Gdk', '3.0');
 const Gtk = gi.require('Gtk', '3.0');
 const execSync = require('child_process').execSync;
 const fs = require('fs');
@@ -30,6 +31,125 @@ function parseLogs(logsString) {
     return parsedLogs;
 }
 
+
+
+
+let cssProvider = new Gtk.CssProvider();
+
+cssProvider.loadFromData(`
+    dialog content label {
+        font-size: 12pt;
+        padding: 20px;
+    }
+`);
+
+Gtk.StyleContext.addProviderForScreen(
+    Gdk.Screen.getDefault(),
+    cssProvider,
+    Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+);
+
+function showDialog(win, message) {
+    let dialog = new Gtk.Dialog();
+
+    // Set properties separately
+    dialog.setTransientFor(win);
+    dialog.setModal(true);
+    dialog.setTitle("Message");
+
+    let label = new Gtk.Label({label: message});
+    let contentArea = dialog.getContentArea();
+    contentArea.add(label);
+
+    dialog.addButton("OK", Gtk.ResponseType.OK);
+
+    dialog.showAll();
+    dialog.run();
+    dialog.destroy();
+}
+
+function createDiagnosticsPage(win) {
+    const yaraPathEntry = new Gtk.Entry();
+    const browseYaraPathBtn = Gtk.Button.newWithLabel('Browse .yara file path');
+    const yaraPath = '/usr/local/bin/yara';
+    let logProc = null;
+
+    const page = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL });
+    const vbox = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL });
+    const fetchLogs = Gtk.Button.new();
+
+    const browseYaraPathIcon = Gtk.Image.newFromIconName('folder-open', Gtk.IconSize.BUTTON);
+    browseYaraPathBtn.setImage(browseYaraPathIcon);
+    browseYaraPathBtn.setTooltipText('Select the .yara file');
+    browseYaraPathBtn.on('clicked', () => {
+        let dialog = new Gtk.FileChooserDialog();
+        dialog.setTitle('Select .yara file');
+        dialog.setTransientFor(win);
+        dialog.setAction(Gtk.FileChooserAction.OPEN); // Use OPEN for files, SELECT_FOLDER for folders
+        dialog.addButton('Cancel', Gtk.ResponseType.CANCEL);
+        dialog.addButton('Select', Gtk.ResponseType.OK);
+
+        // You can add a file filter to only show .yara files (optional)
+        let filter = Gtk.FileFilter.new();
+        filter.addPattern('*.yara');
+        dialog.setFilter(filter);
+
+        let response = dialog.run();
+        if (response === Gtk.ResponseType.OK) {
+            let yaraPath = dialog.getFilename();
+            yaraPathEntry.setText(yaraPath);
+        }
+        dialog.destroy();
+    });
+
+    const yaraBox = new Gtk.Box({orientation: Gtk.Orientation.HORIZONTAL, spacing: 10});
+    yaraBox.packStart(browseYaraPathBtn, false, false, 0);
+    yaraBox.packStart(yaraPathEntry, true, true, 0);
+
+    page.on('destroy', () => {
+        if (logProc) {
+            logProc.kill();
+        }
+    });
+    page.on('delete-event', () => false);
+
+    fetchLogs.setLabel('Fetch Logs');
+    fetchLogs.on('clicked', () => {
+        execSync('adb shell dmesg > logs.txt');
+
+        const logsString = fs.readFileSync('logs.txt', 'utf8');
+        const logs = parseLogs(logsString);
+        const html = generateHTMLTable(logs);
+
+        fs.writeFileSync('report.html', html);
+        execSync('open report.html'); // Open the report file
+    });
+
+    const scanLogs = Gtk.Button.new();
+    scanLogs.setLabel('Scan Logs for Malware');
+    scanLogs.on('clicked', () => {
+        try {
+            const stdout = execSync('/usr/local/bin/yara image_malware.yara logs.txt');
+            if (stdout.toString()) {
+                console.log(`Possible malware behavior detected:\n${stdout}`);
+                showDialog(win,`Possible malware behavior detected:\n${stdout}`)
+            } else {
+                console.log('No malware behavior detected');
+                showDialog(win,'No malware behavior detected')
+            }
+        } catch (error) {
+            console.error(`Error: ${error}`);
+            showDialog(win,`Error: ${error}`)
+        }
+    });
+
+    page.packStart(vbox, true, true, 0);
+    vbox.packStart(fetchLogs, false, false, 0);
+    vbox.packStart(yaraBox, false, false, 0);
+    vbox.packStart(scanLogs, false, false, 0);
+    return page;
+}
+
 function generateHTMLTable(logs) {
     let html = `
     <html>
@@ -49,7 +169,6 @@ function generateHTMLTable(logs) {
           table {
             width: 100%;
             border-collapse: collapse;
-            table-layout: fixed;
           }
           th, td {
             border: 1px solid #ddd;
@@ -104,6 +223,28 @@ function generateHTMLTable(logs) {
 
               rows[i].style.display = shouldDisplay ? '' : 'none';
             }
+
+            updateColumnWidths();
+          }
+
+          function updateColumnWidths() {
+            const table = document.getElementById('logTable');
+            const rows = table.querySelectorAll('tbody tr');
+            const firstRow = rows[0];
+
+            if (firstRow) {
+              const cells = firstRow.querySelectorAll('td');
+              const columns = table.querySelectorAll('th');
+              const columnWidths = [];
+
+              cells.forEach((cell, index) => {
+                columnWidths[index] = cell.offsetWidth;
+              });
+
+              columns.forEach((column, index) => {
+                column.style.width = columnWidths[index] + 'px';
+              });
+            }
           }
         </script>
       </head>
@@ -148,60 +289,13 @@ function generateHTMLTable(logs) {
             </table>
           </div>
         </div>
+        <script>
+          updateColumnWidths();
+        </script>
       </body>
     </html>`;
 
     return html;
-}
-
-function createDiagnosticsPage(win) {
-    let apkPath = '';
-    let logProc = null;
-
-    const page = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL });
-    const vbox = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL });
-    const fetchLogs = Gtk.Button.new();
-
-    page.on('destroy', () => {
-        if (logProc) {
-            logProc.kill();
-        }
-    });
-    page.on('delete-event', () => false);
-
-    fetchLogs.setLabel('Fetch Logs');
-    fetchLogs.on('clicked', () => {
-        execSync('adb shell dmesg > logs.txt');
-
-        const logsString = fs.readFileSync('logs.txt', 'utf8');
-        const logs = parseLogs(logsString);
-        const html = generateHTMLTable(logs);
-
-        fs.writeFileSync('report.html', html);
-        execSync('open report.html'); // Open the report file
-    });
-
-    const scanLogs = Gtk.Button.new();
-    scanLogs.setLabel('Scan Logs for Malware');
-    scanLogs.on('clicked', () => {
-        try {
-            const stdout = execSync('/usr/local/bin/yara image_malware.yara logs.txt');
-            if (stdout.toString()) {
-                console.log(`Possible malware behavior detected:\n${stdout}`);
-                // Show a dialog or alert in the UI here
-            } else {
-                console.log('No malware behavior detected');
-                // Show a dialog or alert in the UI here
-            }
-        } catch (error) {
-            console.error(`Error: ${error}`);
-        }
-    });
-
-    page.add(vbox);
-    vbox.add(fetchLogs);
-    vbox.add(scanLogs);
-    return page;
 }
 
 module.exports = { createDiagnosticsPage };
