@@ -10,6 +10,7 @@ function createHomePage(win) {
 
     const page = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL, spacing: 10, margin: 20 });
     const vbox = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL, spacing: 10 });
+
     const emulatorPathEntry = new Gtk.Entry();
     const kernelPathEntry = new Gtk.Entry();
     const emulatorPathLabel = new Gtk.Label({ label: 'Emulator Path:' });
@@ -117,7 +118,6 @@ function createHomePage(win) {
 
     stopEmulatorBtn.setLabel('Stop emulator!');
     stopEmulatorBtn.on('clicked', () => {
-        // Kill the emulator process
         spawn('pkill', ['-f', 'emulator']);
     });
 

@@ -7,6 +7,7 @@ Gtk.init();
 const win = new Gtk.Window();
 const vbox = new Gtk.Box({ orientation: Gtk.Orientation.VERTICAL });
 const notebook = new Gtk.Notebook();
+
 const homePage = require('./homePage');
 const homePageLabel = new Gtk.Label({ label: 'Home' });
 const loadApkPage = require('./manageApksPage');
