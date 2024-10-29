@@ -117,7 +117,7 @@ function createDiagnosticsPage(win) {
     fetchLogs.on('clicked', () => {
         execSync('adb shell dmesg > logs.txt');
 
-        const logsString = fs.readFileSync('logs.txt', 'utf8');
+        const logsString = fs.readFileSync('logs.txt', 'ascii');
         const logs = parseLogs(logsString);
         const html = generateHTMLTable(logs);
 
